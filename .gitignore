@@ -1,1 +1,5 @@
 .venv
+.env
+promotions.json
+__pycache__/
+*.pyc

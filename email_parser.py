@@ -14,7 +14,7 @@ PASSWORD = os.getenv("PASSWORD")
 
 # Диагностика
 print(f"Путь к .env: {os.path.abspath('.env')}")
-print(f"EMAIL: {EMAIL}")
+print(f"EMAIL: {'*' * len(EMAIL) if EMAIL else None}")
 print(f"PASSWORD: {'*' * len(PASSWORD) if PASSWORD else None}")
 
 # Проверка конфигурации

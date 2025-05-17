@@ -3,3 +3,6 @@
 promotions.json
 __pycache__/
 *.pyc
+session.session
+images/
+*.log

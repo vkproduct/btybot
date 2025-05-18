@@ -94,7 +94,7 @@ async def main():
     logger.info("Клиент Telegram успешно авторизован")
 
     promotions = []
-    date_limit = datetime.now() - timedelta(days=int(PARSE_DAYS))
+    date_limit = (datetime.now() - timedelta(days=int(PARSE_DAYS))).date()
 
     for channel in CHANNELS:
         try:
@@ -104,7 +104,8 @@ async def main():
             logger.info(f"Парсинг канала: {channel} ({channel_title})")
 
             async for message in client.iter_messages(channel, limit=100):
-                if message.date.replace(tzinfo=None) < date_limit:
+                message_date = message.date.replace(tzinfo=None).date()
+                if message_date < date_limit:
                     logger.info(f"Достигнута дата {message.date} в {channel}, старше {date_limit}")
                     break
 

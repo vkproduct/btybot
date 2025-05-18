@@ -10730,3 +10730,2011 @@ __Ты: надо бы сэкономить...
 2025-05-18 21:07:15,716 - DEBUG - Cancelling 0 pending message(s)...
 2025-05-18 21:07:15,716 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
 2025-05-18 21:07:15,719 - INFO - Клиент Telegram отключен
+2025-05-18 21:11:59,518 - INFO - Файл .env загружен: True
+2025-05-18 21:11:59,518 - DEBUG - Using selector: KqueueSelector
+2025-05-18 21:11:59,521 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-18 21:11:59,521 - DEBUG - Connection attempt 1...
+2025-05-18 21:11:59,591 - DEBUG - Connection success!
+2025-05-18 21:11:59,591 - DEBUG - Starting send loop
+2025-05-18 21:11:59,591 - DEBUG - Starting receive loop
+2025-05-18 21:11:59,591 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-18 21:11:59,592 - DEBUG - Waiting for messages to send...
+2025-05-18 21:11:59,593 - DEBUG - Assigned msg_id = 7505865603113270340 to InvokeWithLayerRequest (1048eea50)
+2025-05-18 21:11:59,593 - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2025-05-18 21:11:59,594 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:11:59,594 - DEBUG - Waiting for messages to send...
+2025-05-18 21:11:59,594 - DEBUG - Receiving items from the network...
+2025-05-18 21:11:59,664 - DEBUG - Handling bad salt for message 7505865603113270340
+2025-05-18 21:11:59,665 - DEBUG - 1 message(s) will be resent
+2025-05-18 21:11:59,665 - DEBUG - Receiving items from the network...
+2025-05-18 21:11:59,665 - DEBUG - Assigned msg_id = 7505865603401603280 to InvokeWithLayerRequest (1048eea50)
+2025-05-18 21:11:59,665 - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2025-05-18 21:11:59,665 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:11:59,665 - DEBUG - Waiting for messages to send...
+2025-05-18 21:11:59,665 - DEBUG - Assigned msg_id = 7505865603402554092 to MsgsAck (1048eee40)
+2025-05-18 21:11:59,665 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:11:59,665 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:11:59,665 - DEBUG - Waiting for messages to send...
+2025-05-18 21:11:59,752 - DEBUG - Handling container
+2025-05-18 21:11:59,752 - DEBUG - Handling new session created
+2025-05-18 21:11:59,752 - DEBUG - Handling acknowledge for [7505865603401603280]
+2025-05-18 21:11:59,752 - DEBUG - Receiving items from the network...
+2025-05-18 21:11:59,841 - DEBUG - Handling RPC result for message 7505865603401603280
+2025-05-18 21:11:59,842 - DEBUG - Receiving items from the network...
+2025-05-18 21:11:59,843 - DEBUG - Assigned msg_id = 7505865604113294184 to GetUsersRequest (1048ef230)
+2025-05-18 21:11:59,843 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-05-18 21:11:59,843 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:11:59,843 - DEBUG - Waiting for messages to send...
+2025-05-18 21:11:59,843 - DEBUG - Assigned msg_id = 7505865604115606844 to MsgsAck (1047f7d90)
+2025-05-18 21:11:59,843 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2025-05-18 21:11:59,844 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:11:59,844 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,032 - DEBUG - Handling RPC result for message 7505865604113294184
+2025-05-18 21:12:00,033 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:00,035 - DEBUG - Assigned msg_id = 7505865605176322164 to GetStateRequest (1048ef230)
+2025-05-18 21:12:00,035 - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2025-05-18 21:12:00,035 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,035 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,035 - DEBUG - Assigned msg_id = 7505865605178773104 to MsgsAck (1048d9a70)
+2025-05-18 21:12:00,035 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:00,036 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,036 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,207 - DEBUG - Handling RPC result for message 7505865605176322164
+2025-05-18 21:12:00,207 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:00,207 - DEBUG - Assigned msg_id = 7505865605866057576 to GetDifferenceRequest (1048ef230)
+2025-05-18 21:12:00,207 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:00,207 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,207 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,207 - DEBUG - Assigned msg_id = 7505865605866685092 to MsgsAck (1048d9cd0)
+2025-05-18 21:12:00,207 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:00,207 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,207 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,405 - DEBUG - Handling RPC result for message 7505865605866057576
+2025-05-18 21:12:00,406 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:00,407 - DEBUG - Assigned msg_id = 7505865606665105044 to GetUsersRequest (1047f7c50)
+2025-05-18 21:12:00,407 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-05-18 21:12:00,407 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,407 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,407 - DEBUG - Assigned msg_id = 7505865606667417704 to MsgsAck (1048b7e30)
+2025-05-18 21:12:00,407 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:00,408 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,408 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,572 - DEBUG - Handling RPC result for message 7505865606665105044
+2025-05-18 21:12:00,573 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:00,573 - INFO - Клиент Telegram успешно авторизован
+2025-05-18 21:12:00,574 - DEBUG - Assigned msg_id = 7505865607333701312 to ResolveUsernameRequest (1048eea50)
+2025-05-18 21:12:00,574 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-05-18 21:12:00,574 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,575 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,575 - DEBUG - Assigned msg_id = 7505865607336626232 to MsgsAck (10486dd00)
+2025-05-18 21:12:00,575 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:00,575 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,575 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,695 - DEBUG - Handling RPC result for message 7505865607333701312
+2025-05-18 21:12:00,696 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:00,697 - INFO - Парсинг канала: @baborru (BABOR | Expert Skincare)
+2025-05-18 21:12:00,698 - DEBUG - Assigned msg_id = 7505865607828018368 to GetHistoryRequest (1048eea50)
+2025-05-18 21:12:00,698 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-05-18 21:12:00,698 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,698 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:00,698 - DEBUG - Assigned msg_id = 7505865607831250368 to MsgsAck (10486df20)
+2025-05-18 21:12:00,698 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:00,699 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:00,699 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:01,270 - DEBUG - Handling RPC result for message 7505865607828018368
+2025-05-18 21:12:01,281 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:01,284 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:01,284 - DEBUG - Assigned msg_id = 7505865610470344368 to GetFileRequest (1049427b0)
+2025-05-18 21:12:01,284 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:01,285 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:01,285 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:01,285 - DEBUG - Assigned msg_id = 7505865610471333328 to MsgsAck (104951750)
+2025-05-18 21:12:01,285 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:01,285 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:01,285 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:01,817 - DEBUG - Handling RPC result for message 7505865610470344368
+2025-05-18 21:12:01,817 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:01,817 - DEBUG - Assigned msg_id = 7505865612601809324 to GetFileRequest (1049427b0)
+2025-05-18 21:12:01,817 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:01,817 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:01,817 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:01,817 - DEBUG - Assigned msg_id = 7505865612602540792 to MsgsAck (104951850)
+2025-05-18 21:12:01,817 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:01,818 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:01,818 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:01,969 - DEBUG - Handling RPC result for message 7505865612601809324
+2025-05-18 21:12:01,970 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:01,971 - INFO - Изображение сохранено: images/baborru_1579.jpg
+2025-05-18 21:12:01,972 - INFO - Найдены ссылки в посте 1579 в @baborru: ['https://babor.ru/catalog/cleanformance/utrenniy-krem-dlya-vek-protiv-otechnosti-cleanformance/?srsltid=AfmBOootfDLqpgY4r6quN-IkZ9WpKCojuz6BxOTHuYlXOl1bHo5pHr46)🌱']
+2025-05-18 21:12:01,973 - INFO - Добавлена акция: канал=@baborru, пост=1579, дата=2025-05-18T18:00:02, ключевые слова=['уход']
+2025-05-18 21:12:01,973 - INFO - Попытка сохранить 1 акций в telegram_promotions.json
+2025-05-18 21:12:01,973 - INFO - Успешно сохранено 1 акций в telegram_promotions.json
+2025-05-18 21:12:01,974 - INFO - Добавлена акция: канал=@baborru, пост=1578, дата=2025-05-16T16:51:52, ключевые слова=['промокод']
+2025-05-18 21:12:01,974 - INFO - Попытка сохранить 2 акций в telegram_promotions.json
+2025-05-18 21:12:01,974 - INFO - Успешно сохранено 2 акций в telegram_promotions.json
+2025-05-18 21:12:01,975 - DEBUG - Пост 1577 в @baborru не содержит ключевых слов: **🪔 Рецепт идеального пятничного вечера: **
+
+Расслабляющий душ с [Гелем для душа Grounding SOUL & BO...
+2025-05-18 21:12:01,975 - INFO - Найдены ссылки в посте 1576 в @baborru: ['https://t.me/babor_novoros)', 'https://t.me/babor_novoros)']
+2025-05-18 21:12:01,975 - INFO - Добавлена акция: канал=@baborru, пост=1576, дата=2025-05-15T17:20:58, ключевые слова=['уход']
+2025-05-18 21:12:01,975 - INFO - Попытка сохранить 3 акций в telegram_promotions.json
+2025-05-18 21:12:01,976 - INFO - Успешно сохранено 3 акций в telegram_promotions.json
+2025-05-18 21:12:01,977 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:01,977 - DEBUG - Assigned msg_id = 7505865613241533104 to GetFileRequest (1059a0410)
+2025-05-18 21:12:01,977 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:01,977 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:01,977 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:01,977 - DEBUG - Assigned msg_id = 7505865613242561164 to MsgsAck (10491db80)
+2025-05-18 21:12:01,977 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:01,978 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:01,978 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,169 - DEBUG - Handling RPC result for message 7505865613241533104
+2025-05-18 21:12:02,169 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:02,170 - INFO - Изображение сохранено: images/baborru_1575.jpg
+2025-05-18 21:12:02,171 - INFO - Найдены ссылки в посте 1575 в @baborru: ['https://babor.ru/catalog/ochishchenie/)', 'https://babor.ru/catalog/toniki-/)', 'https://babor.ru/catalog/regeneratsiya/ampuly-nochnye/)[**:**](https://babor.ru/catalog/regeneratsiya/ampuly-nochnye/)**', 'https://babor.ru/catalog/sezonnyy-ukhod/regeneriruyushchiy-krem-the-cure-cream/)']
+2025-05-18 21:12:02,171 - INFO - Добавлена акция: канал=@baborru, пост=1575, дата=2025-05-13T17:54:07, ключевые слова=['уход']
+2025-05-18 21:12:02,171 - INFO - Попытка сохранить 4 акций в telegram_promotions.json
+2025-05-18 21:12:02,171 - INFO - Успешно сохранено 4 акций в telegram_promotions.json
+2025-05-18 21:12:02,172 - INFO - Достигнута дата 2025-05-10 17:49:37+00:00 в @baborru, старше 2025-05-11
+2025-05-18 21:12:02,172 - INFO - Попытка сохранить 4 акций в telegram_promotions.json
+2025-05-18 21:12:02,173 - INFO - Успешно сохранено 4 акций в telegram_promotions.json
+2025-05-18 21:12:02,173 - DEBUG - Assigned msg_id = 7505865614320784036 to ResolveUsernameRequest (1047f7c50)
+2025-05-18 21:12:02,173 - DEBUG - Encrypting 1 message(s) in 44 bytes for sending
+2025-05-18 21:12:02,173 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,174 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,174 - DEBUG - Assigned msg_id = 7505865614322348064 to MsgsAck (10491e300)
+2025-05-18 21:12:02,174 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:02,174 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,174 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,253 - DEBUG - Handling RPC result for message 7505865614320784036
+2025-05-18 21:12:02,254 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:02,254 - INFO - Парсинг канала: @mesopharm_official (MESOPHARM)
+2025-05-18 21:12:02,254 - DEBUG - Assigned msg_id = 7505865614645121044 to GetHistoryRequest (10493c7d0)
+2025-05-18 21:12:02,254 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-05-18 21:12:02,255 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,255 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,255 - DEBUG - Assigned msg_id = 7505865614647232476 to MsgsAck (1048f27b0)
+2025-05-18 21:12:02,255 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:02,255 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,255 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,617 - DEBUG - Handling RPC result for message 7505865614645121044
+2025-05-18 21:12:02,626 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:02,628 - INFO - Найдены ссылки в посте 1915 в @mesopharm_official: ['https://mesopharm-shop.ru/product/_luster_control_mask_150_/?utm_source=telegram&utm_medium=prof)**—']
+2025-05-18 21:12:02,628 - INFO - Добавлена акция: канал=@mesopharm_official, пост=1915, дата=2025-05-16T09:47:25, ключевые слова=['уход']
+2025-05-18 21:12:02,628 - INFO - Попытка сохранить 5 акций в telegram_promotions.json
+2025-05-18 21:12:02,629 - INFO - Успешно сохранено 5 акций в telegram_promotions.json
+2025-05-18 21:12:02,630 - INFO - Найдены ссылки в посте 1914 в @mesopharm_official: ['https://mesopharm-shop.ru/product/_5_fresh_orange_serum_30_/?utm_source=telegram&utm_medium=prof)', 'https://mesopharm-shop.ru/product/_flash_lift_essence_nf_30_/?utm_source=telegram&utm_medium=prof)', 'https://mesopharm-shop.ru/product/_brilliance_serum_30_/?utm_source=telegram&utm_medium=prof)', 'https://mesopharm-shop.ru/product/_gentle_eye_essence_30_/?utm_source=telegram&utm_medium=prof)', 'https://mesopharmacademy.getcourse.ru/web_22.05.25?utm_source=telegram&utm_medium=prof)']
+2025-05-18 21:12:02,630 - INFO - Добавлена акция: канал=@mesopharm_official, пост=1914, дата=2025-05-15T11:17:34, ключевые слова=['уход', 'косметика']
+2025-05-18 21:12:02,630 - INFO - Попытка сохранить 6 акций в telegram_promotions.json
+2025-05-18 21:12:02,634 - INFO - Успешно сохранено 6 акций в telegram_promotions.json
+2025-05-18 21:12:02,634 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:02,634 - DEBUG - Assigned msg_id = 7505865616165811960 to GetFileRequest (105957890)
+2025-05-18 21:12:02,635 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:02,635 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,635 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,635 - DEBUG - Assigned msg_id = 7505865616167060320 to MsgsAck (1048f2cf0)
+2025-05-18 21:12:02,635 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:02,635 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,635 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,854 - DEBUG - Handling RPC result for message 7505865616165811960
+2025-05-18 21:12:02,855 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:02,856 - INFO - Изображение сохранено: images/mesopharm_official_1913.jpg
+2025-05-18 21:12:02,856 - DEBUG - Пост 1913 в @mesopharm_official не содержит ключевых слов: ...
+2025-05-18 21:12:02,857 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:02,857 - DEBUG - Assigned msg_id = 7505865617056548540 to GetFileRequest (1048da3f0)
+2025-05-18 21:12:02,857 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:02,857 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,857 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:02,857 - DEBUG - Assigned msg_id = 7505865617057384912 to MsgsAck (1048f7e10)
+2025-05-18 21:12:02,857 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:02,858 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:02,858 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,143 - DEBUG - Handling RPC result for message 7505865617056548540
+2025-05-18 21:12:03,143 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:03,143 - DEBUG - Assigned msg_id = 7505865618495371884 to GetFileRequest (1048da3f0)
+2025-05-18 21:12:03,143 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:03,143 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,143 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,143 - DEBUG - Assigned msg_id = 7505865618496163436 to MsgsAck (104945310)
+2025-05-18 21:12:03,143 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:03,143 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,143 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,227 - DEBUG - Handling RPC result for message 7505865618495371884
+2025-05-18 21:12:03,227 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:03,228 - INFO - Изображение сохранено: images/mesopharm_official_1912.jpg
+2025-05-18 21:12:03,228 - INFO - Найдены ссылки в посте 1912 в @mesopharm_official: ['https://www.mesopharm.ru/learning-center/seminary/16960/?utm_source=telegram&utm_medium=prof)']
+2025-05-18 21:12:03,229 - INFO - Добавлена акция: канал=@mesopharm_official, пост=1912, дата=2025-05-14T09:10:28, ключевые слова=['скидка', 'бесплатно']
+2025-05-18 21:12:03,229 - INFO - Попытка сохранить 7 акций в telegram_promotions.json
+2025-05-18 21:12:03,230 - INFO - Успешно сохранено 7 акций в telegram_promotions.json
+2025-05-18 21:12:03,231 - DEBUG - Пост 1911 в @mesopharm_official не содержит ключевых слов: **Мезотерапевтический коктейль с универсальным
+многофункциональным действием - **[**ADN RESTART**](h...
+2025-05-18 21:12:03,231 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:03,232 - DEBUG - Assigned msg_id = 7505865618848988600 to GetFileRequest (1048da3f0)
+2025-05-18 21:12:03,232 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:03,232 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,232 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,232 - DEBUG - Assigned msg_id = 7505865618850291320 to MsgsAck (104944350)
+2025-05-18 21:12:03,232 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:03,232 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,232 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,506 - DEBUG - Handling RPC result for message 7505865618848988600
+2025-05-18 21:12:03,507 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:03,507 - DEBUG - Assigned msg_id = 7505865619950004644 to GetFileRequest (1048da3f0)
+2025-05-18 21:12:03,507 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:03,507 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,507 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,507 - DEBUG - Assigned msg_id = 7505865619950659820 to MsgsAck (1047aefc0)
+2025-05-18 21:12:03,507 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:03,507 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,507 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,660 - DEBUG - Handling RPC result for message 7505865619950004644
+2025-05-18 21:12:03,660 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:03,660 - INFO - Изображение сохранено: images/mesopharm_official_1910.jpg
+2025-05-18 21:12:03,661 - INFO - Найдены ссылки в посте 1910 в @mesopharm_official: ['https://mesopharm-shop.ru/product/hydro_line_p_anti_wrinkles_1_3_ml/?utm_source=telegram&utm_medium=prof)', 'https://mesopharm-shop.ru/product/adn_restart_peptide_2_0_ml/?utm_source=telegram&utm_medium=prof)', 'https://mesopharm-shop.ru/product/nucleospire_dna_rna_1_dm_anti_aging_1_3_ml/?utm_source=telegram&utm_medium=prof)']
+2025-05-18 21:12:03,661 - INFO - Добавлена акция: канал=@mesopharm_official, пост=1910, дата=2025-05-12T08:00:20, ключевые слова=['акция', 'подарок']
+2025-05-18 21:12:03,661 - INFO - Попытка сохранить 8 акций в telegram_promotions.json
+2025-05-18 21:12:03,662 - INFO - Успешно сохранено 8 акций в telegram_promotions.json
+2025-05-18 21:12:03,662 - INFO - Достигнута дата 2025-04-30 10:27:27+00:00 в @mesopharm_official, старше 2025-05-11
+2025-05-18 21:12:03,662 - INFO - Попытка сохранить 8 акций в telegram_promotions.json
+2025-05-18 21:12:03,663 - INFO - Успешно сохранено 8 акций в telegram_promotions.json
+2025-05-18 21:12:03,663 - DEBUG - Assigned msg_id = 7505865620574684208 to ResolveUsernameRequest (1047f7c50)
+2025-05-18 21:12:03,663 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:03,663 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,663 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,663 - DEBUG - Assigned msg_id = 7505865620575827664 to MsgsAck (1047ae150)
+2025-05-18 21:12:03,663 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:03,663 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,663 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,780 - DEBUG - Handling RPC result for message 7505865620574684208
+2025-05-18 21:12:03,780 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:03,781 - INFO - Парсинг канала: @wordtoskin (Слово коже)
+2025-05-18 21:12:03,781 - DEBUG - Assigned msg_id = 7505865621047043868 to GetHistoryRequest (105905bd0)
+2025-05-18 21:12:03,781 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-05-18 21:12:03,781 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,782 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:03,782 - DEBUG - Assigned msg_id = 7505865621049484320 to MsgsAck (104925090)
+2025-05-18 21:12:03,782 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:03,782 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:03,782 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:04,069 - DEBUG - Handling RPC result for message 7505865621047043868
+2025-05-18 21:12:04,080 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:04,082 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:04,082 - DEBUG - Assigned msg_id = 7505865622547439288 to GetFileRequest (104932570)
+2025-05-18 21:12:04,082 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:04,083 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:04,083 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:04,083 - DEBUG - Assigned msg_id = 7505865622548954676 to MsgsAck (104925ef0)
+2025-05-18 21:12:04,083 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:04,083 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:04,083 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:04,348 - DEBUG - Handling RPC result for message 7505865622547439288
+2025-05-18 21:12:04,348 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:04,348 - INFO - Изображение сохранено: images/wordtoskin_2050.jpg
+2025-05-18 21:12:04,348 - DEBUG - Пост 2050 в @wordtoskin не содержит ключевых слов: **Кожа под солнцем: как правильно подобрать средство с SPF-защитой**
+
+Почему кто-то обгорает уже чер...
+2025-05-18 21:12:04,349 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:04,349 - DEBUG - Assigned msg_id = 7505865623615039536 to GetFileRequest (10486ef10)
+2025-05-18 21:12:04,349 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:04,349 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:04,349 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:04,349 - DEBUG - Assigned msg_id = 7505865623615822504 to MsgsAck (1048fd9a0)
+2025-05-18 21:12:04,349 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:04,350 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:04,350 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:04,746 - DEBUG - Handling RPC result for message 7505865623615039536
+2025-05-18 21:12:04,746 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:04,746 - INFO - Изображение сохранено: images/wordtoskin_2049.jpg
+2025-05-18 21:12:04,746 - DEBUG - Пост 2049 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:04,747 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:04,748 - DEBUG - Assigned msg_id = 7505865625208375640 to GetFileRequest (10486ef10)
+2025-05-18 21:12:04,748 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:04,748 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:04,748 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:04,748 - DEBUG - Assigned msg_id = 7505865625209034632 to MsgsAck (1048e3b50)
+2025-05-18 21:12:04,748 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:04,748 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:04,748 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,096 - DEBUG - Handling RPC result for message 7505865625208375640
+2025-05-18 21:12:05,097 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:05,097 - INFO - Изображение сохранено: images/wordtoskin_2048.jpg
+2025-05-18 21:12:05,097 - INFO - Найдены ссылки в посте 2048 в @wordtoskin: ['https://t.me/oncodermatology)']
+2025-05-18 21:12:05,097 - INFO - Добавлена акция: канал=@wordtoskin, пост=2048, дата=2025-05-14T12:00:06, ключевые слова=['акция', 'бесплатно', 'уход']
+2025-05-18 21:12:05,097 - INFO - Попытка сохранить 9 акций в telegram_promotions.json
+2025-05-18 21:12:05,098 - INFO - Успешно сохранено 9 акций в telegram_promotions.json
+2025-05-18 21:12:05,098 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:05,098 - DEBUG - Assigned msg_id = 7505865626906686140 to GetFileRequest (10487b550)
+2025-05-18 21:12:05,098 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:05,099 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,099 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,099 - DEBUG - Assigned msg_id = 7505865626907458616 to MsgsAck (1048e38d0)
+2025-05-18 21:12:05,099 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:05,099 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,099 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,393 - DEBUG - Handling RPC result for message 7505865626906686140
+2025-05-18 21:12:05,393 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:05,393 - INFO - Изображение сохранено: images/wordtoskin_2047.jpg
+2025-05-18 21:12:05,393 - DEBUG - Пост 2047 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:05,394 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:05,394 - DEBUG - Assigned msg_id = 7505865628088630032 to GetFileRequest (10487b550)
+2025-05-18 21:12:05,394 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:05,394 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,394 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,394 - DEBUG - Assigned msg_id = 7505865628089626620 to MsgsAck (105916350)
+2025-05-18 21:12:05,394 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:05,394 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,394 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,696 - DEBUG - Handling RPC result for message 7505865628088630032
+2025-05-18 21:12:05,696 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:05,696 - INFO - Изображение сохранено: images/wordtoskin_2046.jpg
+2025-05-18 21:12:05,696 - DEBUG - Пост 2046 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:05,697 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:05,697 - DEBUG - Assigned msg_id = 7505865629299621892 to GetFileRequest (10491db80)
+2025-05-18 21:12:05,697 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:05,697 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,697 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,697 - DEBUG - Assigned msg_id = 7505865629300886464 to MsgsAck (105915390)
+2025-05-18 21:12:05,697 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:05,697 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,697 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,987 - DEBUG - Handling RPC result for message 7505865629299621892
+2025-05-18 21:12:05,987 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:05,988 - INFO - Изображение сохранено: images/wordtoskin_2045.jpg
+2025-05-18 21:12:05,988 - DEBUG - Пост 2045 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:05,988 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:05,988 - DEBUG - Assigned msg_id = 7505865630465174984 to GetFileRequest (10491db80)
+2025-05-18 21:12:05,988 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:05,988 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,988 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:05,988 - DEBUG - Assigned msg_id = 7505865630466173480 to MsgsAck (104907050)
+2025-05-18 21:12:05,988 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:05,989 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:05,989 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:06,343 - DEBUG - Handling RPC result for message 7505865630465174984
+2025-05-18 21:12:06,344 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:06,345 - INFO - Изображение сохранено: images/wordtoskin_2044.jpg
+2025-05-18 21:12:06,345 - DEBUG - Пост 2044 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:06,345 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:06,345 - DEBUG - Assigned msg_id = 7505865632188294364 to GetFileRequest (1048f3310)
+2025-05-18 21:12:06,345 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:06,345 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:06,345 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:06,345 - DEBUG - Assigned msg_id = 7505865632189014388 to MsgsAck (10494eab0)
+2025-05-18 21:12:06,345 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:06,345 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:06,346 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:06,645 - DEBUG - Handling RPC result for message 7505865632188294364
+2025-05-18 21:12:06,645 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:06,645 - INFO - Изображение сохранено: images/wordtoskin_2043.jpg
+2025-05-18 21:12:06,645 - DEBUG - Пост 2043 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:06,646 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:06,646 - DEBUG - Assigned msg_id = 7505865633390913916 to GetFileRequest (1048f27b0)
+2025-05-18 21:12:06,646 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:06,646 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:06,646 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:06,646 - DEBUG - Assigned msg_id = 7505865633391593888 to MsgsAck (105955ea0)
+2025-05-18 21:12:06,646 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:06,646 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:06,646 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:06,886 - DEBUG - Handling RPC result for message 7505865633390913916
+2025-05-18 21:12:06,887 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:06,887 - INFO - Изображение сохранено: images/wordtoskin_2042.jpg
+2025-05-18 21:12:06,887 - DEBUG - Пост 2042 в @wordtoskin не содержит ключевых слов: **Как не переедать в кафе и ресторанах: лайфхаки от нутрициолога**
+
+Весна возвращает нам живое движе...
+2025-05-18 21:12:06,887 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:06,887 - DEBUG - Assigned msg_id = 7505865634357342676 to GetFileRequest (1048f6000)
+2025-05-18 21:12:06,887 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:06,887 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:06,887 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:06,888 - DEBUG - Assigned msg_id = 7505865634357981636 to MsgsAck (105955f90)
+2025-05-18 21:12:06,888 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:06,888 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:06,888 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:07,127 - DEBUG - Handling RPC result for message 7505865634357342676
+2025-05-18 21:12:07,127 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:07,129 - INFO - Изображение сохранено: images/wordtoskin_2041.jpg
+2025-05-18 21:12:07,129 - DEBUG - Пост 2041 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:07,129 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:07,129 - DEBUG - Assigned msg_id = 7505865635620449620 to GetFileRequest (1049453d0)
+2025-05-18 21:12:07,129 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:07,130 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:07,130 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:07,130 - DEBUG - Assigned msg_id = 7505865635621253568 to MsgsAck (105956080)
+2025-05-18 21:12:07,130 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:07,130 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:07,130 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:07,482 - DEBUG - Handling RPC result for message 7505865635620449620
+2025-05-18 21:12:07,483 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:07,483 - INFO - Изображение сохранено: images/wordtoskin_2040.jpg
+2025-05-18 21:12:07,483 - DEBUG - Пост 2040 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:07,483 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:07,483 - DEBUG - Assigned msg_id = 7505865637036601620 to GetFileRequest (1049453d0)
+2025-05-18 21:12:07,483 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:07,484 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:07,484 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:07,484 - DEBUG - Assigned msg_id = 7505865637037444668 to MsgsAck (105955f40)
+2025-05-18 21:12:07,484 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:07,484 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:07,484 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:07,868 - DEBUG - Handling RPC result for message 7505865637036601620
+2025-05-18 21:12:07,868 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:07,869 - INFO - Изображение сохранено: images/wordtoskin_2039.jpg
+2025-05-18 21:12:07,869 - DEBUG - Пост 2039 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:07,869 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:07,869 - DEBUG - Assigned msg_id = 7505865638579801160 to GetFileRequest (1047ae150)
+2025-05-18 21:12:07,869 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:07,869 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:07,869 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:07,869 - DEBUG - Assigned msg_id = 7505865638580816820 to MsgsAck (105955950)
+2025-05-18 21:12:07,870 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:07,870 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:07,870 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,129 - DEBUG - Handling RPC result for message 7505865638579801160
+2025-05-18 21:12:08,130 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:08,132 - INFO - Изображение сохранено: images/wordtoskin_2038.jpg
+2025-05-18 21:12:08,132 - DEBUG - Пост 2038 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:08,132 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:08,132 - DEBUG - Assigned msg_id = 7505865639926267820 to GetFileRequest (1047ae150)
+2025-05-18 21:12:08,132 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:08,132 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,132 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,132 - DEBUG - Assigned msg_id = 7505865639927268224 to MsgsAck (1059560d0)
+2025-05-18 21:12:08,132 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:08,133 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,133 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,413 - DEBUG - Handling RPC result for message 7505865639926267820
+2025-05-18 21:12:08,414 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:08,414 - INFO - Изображение сохранено: images/wordtoskin_2037.jpg
+2025-05-18 21:12:08,414 - DEBUG - Пост 2037 в @wordtoskin не содержит ключевых слов: ...
+2025-05-18 21:12:08,414 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:08,414 - DEBUG - Assigned msg_id = 7505865641055180748 to GetFileRequest (104926030)
+2025-05-18 21:12:08,414 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:08,414 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,414 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,414 - DEBUG - Assigned msg_id = 7505865641055816848 to MsgsAck (105956440)
+2025-05-18 21:12:08,415 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:08,415 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,415 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,696 - DEBUG - Handling RPC result for message 7505865641055180748
+2025-05-18 21:12:08,696 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:08,697 - INFO - Изображение сохранено: images/wordtoskin_2036.jpg
+2025-05-18 21:12:08,697 - INFO - Найдены ссылки в посте 2036 в @wordtoskin: ['https://www.vichy.ru/vishi-la-spec-syv-ka-antipigm-30ml?erid=2SDnjeyVmpq)', 'https://www.vichy.ru/dnevnoj-krem-s-vitaminom-b3-protiv-pigmentacii-spf-50?erid=2SDnjeyVmpq)—', 'https://www.vichy.ru/liftactiv-b3-nochnoj-krem-dlja-lica-c-retinolom-protiv-pigmentacii-i-morschin?erid=2SDnjeyVmpq)', 'https://www.laroche-posay.ru/anthelios-uvair?erid=2SDnjeyVmpq)']
+2025-05-18 21:12:08,697 - INFO - Добавлена акция: канал=@wordtoskin, пост=2036, дата=2025-05-12T12:00:02, ключевые слова=['уход']
+2025-05-18 21:12:08,697 - INFO - Попытка сохранить 10 акций в telegram_promotions.json
+2025-05-18 21:12:08,697 - INFO - Успешно сохранено 10 акций в telegram_promotions.json
+2025-05-18 21:12:08,698 - INFO - Достигнута дата 2025-05-10 09:00:04+00:00 в @wordtoskin, старше 2025-05-11
+2025-05-18 21:12:08,698 - INFO - Попытка сохранить 10 акций в telegram_promotions.json
+2025-05-18 21:12:08,698 - INFO - Успешно сохранено 10 акций в telegram_promotions.json
+2025-05-18 21:12:08,698 - DEBUG - Assigned msg_id = 7505865642190843780 to ResolveUsernameRequest (1048d9e00)
+2025-05-18 21:12:08,698 - DEBUG - Encrypting 1 message(s) in 44 bytes for sending
+2025-05-18 21:12:08,698 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,698 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,698 - DEBUG - Assigned msg_id = 7505865642191600996 to MsgsAck (1059a8460)
+2025-05-18 21:12:08,698 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:08,699 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,699 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,785 - DEBUG - Handling RPC result for message 7505865642190843780
+2025-05-18 21:12:08,786 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:08,786 - INFO - Парсинг канала: @araviaprofessional (ARAVIA Professional)
+2025-05-18 21:12:08,786 - DEBUG - Assigned msg_id = 7505865642541651924 to GetHistoryRequest (1048d9f30)
+2025-05-18 21:12:08,786 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-05-18 21:12:08,786 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,786 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:08,786 - DEBUG - Assigned msg_id = 7505865642542920308 to MsgsAck (1059a8aa0)
+2025-05-18 21:12:08,786 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:08,787 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:08,787 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:09,322 - DEBUG - Handling RPC result for message 7505865642541651924
+2025-05-18 21:12:09,334 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:09,336 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:09,336 - DEBUG - Assigned msg_id = 7505865645037710984 to GetFileRequest (104926030)
+2025-05-18 21:12:09,336 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:09,336 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:09,337 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:09,337 - DEBUG - Assigned msg_id = 7505865645039083324 to MsgsAck (10492f5c0)
+2025-05-18 21:12:09,337 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:09,337 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:09,337 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:09,558 - DEBUG - Handling RPC result for message 7505865645037710984
+2025-05-18 21:12:09,558 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:09,559 - INFO - Изображение сохранено: images/araviaprofessional_3551.jpg
+2025-05-18 21:12:09,559 - DEBUG - Пост 3551 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:09,559 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:09,559 - DEBUG - Assigned msg_id = 7505865645929743608 to GetFileRequest (1048fd010)
+2025-05-18 21:12:09,559 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:09,559 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:09,559 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:09,559 - DEBUG - Assigned msg_id = 7505865645930775484 to MsgsAck (10492f700)
+2025-05-18 21:12:09,560 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:09,560 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:09,560 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:09,995 - DEBUG - Handling RPC result for message 7505865645929743608
+2025-05-18 21:12:09,995 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:09,997 - INFO - Изображение сохранено: images/araviaprofessional_3550.jpg
+2025-05-18 21:12:09,997 - DEBUG - Пост 3550 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:09,998 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:09,998 - DEBUG - Assigned msg_id = 7505865647683719476 to GetFileRequest (104938dd0)
+2025-05-18 21:12:09,998 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:09,998 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:09,998 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:09,998 - DEBUG - Assigned msg_id = 7505865647684631188 to MsgsAck (10492f520)
+2025-05-18 21:12:09,998 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:09,998 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:09,998 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,188 - DEBUG - Handling RPC result for message 7505865647683719476
+2025-05-18 21:12:10,188 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:10,189 - INFO - Изображение сохранено: images/araviaprofessional_3549.jpg
+2025-05-18 21:12:10,189 - INFO - Найдены ссылки в посте 3549 в @araviaprofessional: ['https://aravia.ru/catalog/gel_patoka_dlya_massazha_tela_s_ekstraktami_zhenshenya_i_lemongrassa_500_ml/)', 'https://aravia.ru/catalog/maska_obertyvanie_drenazhnoe_dlya_tela_s_termalnoy_gryazyu_i_ekstraktom_zhenshenya_550_ml/)', 'https://aravia.ru/catalog/molochko_mist_uspokaivayushchee_dlya_tela_s_ekstraktami_vanili_i_mango_300_ml/)']
+2025-05-18 21:12:10,189 - INFO - Добавлена акция: канал=@araviaprofessional, пост=3549, дата=2025-05-17T09:41:26, ключевые слова=['новинка', 'уход']
+2025-05-18 21:12:10,189 - INFO - Попытка сохранить 11 акций в telegram_promotions.json
+2025-05-18 21:12:10,190 - INFO - Успешно сохранено 11 акций в telegram_promotions.json
+2025-05-18 21:12:10,191 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:10,191 - DEBUG - Assigned msg_id = 7505865648751155340 to GetFileRequest (10493bbd0)
+2025-05-18 21:12:10,191 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:10,191 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,191 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,191 - DEBUG - Assigned msg_id = 7505865648752230132 to MsgsAck (10492f340)
+2025-05-18 21:12:10,191 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:10,191 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,191 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,435 - DEBUG - Handling RPC result for message 7505865648751155340
+2025-05-18 21:12:10,435 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:10,436 - INFO - Изображение сохранено: images/araviaprofessional_3548.jpg
+2025-05-18 21:12:10,436 - DEBUG - Пост 3548 в @araviaprofessional не содержит ключевых слов: Делимся протоколом процедуры **«Микроигольчатый пилинг»**
+⠀
+1️⃣ Небольшое количество очищающего геля...
+2025-05-18 21:12:10,436 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:10,436 - DEBUG - Assigned msg_id = 7505865649733679256 to GetFileRequest (104929a90)
+2025-05-18 21:12:10,437 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:10,437 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,437 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,437 - DEBUG - Assigned msg_id = 7505865649734510860 to MsgsAck (10493c730)
+2025-05-18 21:12:10,437 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:10,437 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,437 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,574 - DEBUG - Handling RPC result for message 7505865649733679256
+2025-05-18 21:12:10,574 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:10,575 - INFO - Изображение сохранено: images/araviaprofessional_3544.jpg
+2025-05-18 21:12:10,575 - DEBUG - Пост 3544 в @araviaprofessional не содержит ключевых слов: Ваша кожа готова к лету?
+
+О важности SPF-защиты можно говорить много и долго, но мы выделим главное:...
+2025-05-18 21:12:10,575 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:10,575 - DEBUG - Assigned msg_id = 7505865650288851224 to GetFileRequest (104929a90)
+2025-05-18 21:12:10,575 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:10,575 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,575 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,575 - DEBUG - Assigned msg_id = 7505865650289587460 to MsgsAck (10493c690)
+2025-05-18 21:12:10,575 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:10,576 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,576 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,731 - DEBUG - Handling RPC result for message 7505865650288851224
+2025-05-18 21:12:10,731 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:10,731 - INFO - Изображение сохранено: images/araviaprofessional_3543.jpg
+2025-05-18 21:12:10,731 - DEBUG - Пост 3543 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:10,732 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:10,732 - DEBUG - Assigned msg_id = 7505865650915614568 to GetFileRequest (104929a90)
+2025-05-18 21:12:10,732 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:10,732 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,732 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,732 - DEBUG - Assigned msg_id = 7505865650916319332 to MsgsAck (10493ca00)
+2025-05-18 21:12:10,732 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:10,732 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,732 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,914 - DEBUG - Handling RPC result for message 7505865650915614568
+2025-05-18 21:12:10,914 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:10,915 - DEBUG - Assigned msg_id = 7505865651645983184 to GetFileRequest (104929a90)
+2025-05-18 21:12:10,915 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:10,915 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,915 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:10,915 - DEBUG - Assigned msg_id = 7505865651646719420 to MsgsAck (10493c6e0)
+2025-05-18 21:12:10,915 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:10,915 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:10,915 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,030 - DEBUG - Handling RPC result for message 7505865651645983184
+2025-05-18 21:12:11,030 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:11,030 - INFO - Изображение сохранено: images/araviaprofessional_3542.jpg
+2025-05-18 21:12:11,030 - DEBUG - Пост 3542 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:11,031 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:11,031 - DEBUG - Assigned msg_id = 7505865652407889452 to GetFileRequest (104929a90)
+2025-05-18 21:12:11,031 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:11,031 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,031 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,031 - DEBUG - Assigned msg_id = 7505865652408701980 to MsgsAck (10493c960)
+2025-05-18 21:12:11,032 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:11,032 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,032 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,296 - DEBUG - Handling RPC result for message 7505865652407889452
+2025-05-18 21:12:11,296 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:11,297 - INFO - Изображение сохранено: images/araviaprofessional_3541.jpg
+2025-05-18 21:12:11,297 - DEBUG - Пост 3541 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:11,297 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:11,298 - DEBUG - Assigned msg_id = 7505865653472841348 to GetFileRequest (104929a90)
+2025-05-18 21:12:11,298 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:11,298 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,298 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,298 - DEBUG - Assigned msg_id = 7505865653473810280 to MsgsAck (10493cc30)
+2025-05-18 21:12:11,298 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:11,298 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,298 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,509 - DEBUG - Handling RPC result for message 7505865653472841348
+2025-05-18 21:12:11,510 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:11,510 - DEBUG - Handling update UpdateShort
+2025-05-18 21:12:11,510 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:11,510 - DEBUG - Assigned msg_id = 7505865654323025788 to GetFileRequest (104929a90)
+2025-05-18 21:12:11,510 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:11,510 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,510 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,510 - DEBUG - Assigned msg_id = 7505865654323718156 to MsgsAck (10492f570)
+2025-05-18 21:12:11,510 - DEBUG - Encrypting 1 message(s) in 44 bytes for sending
+2025-05-18 21:12:11,511 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,511 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,617 - DEBUG - Handling RPC result for message 7505865654323025788
+2025-05-18 21:12:11,618 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:11,618 - INFO - Изображение сохранено: images/araviaprofessional_3540.jpg
+2025-05-18 21:12:11,618 - INFO - Добавлена акция: канал=@araviaprofessional, пост=3540, дата=2025-05-15T14:00:12, ключевые слова=['уход']
+2025-05-18 21:12:11,618 - INFO - Попытка сохранить 12 акций в telegram_promotions.json
+2025-05-18 21:12:11,620 - INFO - Успешно сохранено 12 акций в telegram_promotions.json
+2025-05-18 21:12:11,621 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:11,621 - DEBUG - Assigned msg_id = 7505865654765498244 to GetFileRequest (104929b70)
+2025-05-18 21:12:11,621 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:11,621 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,621 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,621 - DEBUG - Assigned msg_id = 7505865654766942108 to MsgsAck (10492f5c0)
+2025-05-18 21:12:11,621 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:11,621 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,621 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,801 - DEBUG - Handling RPC result for message 7505865654765498244
+2025-05-18 21:12:11,802 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:11,802 - DEBUG - Assigned msg_id = 7505865655490010348 to MsgsAck (10492f700)
+2025-05-18 21:12:11,802 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:11,802 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,802 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,802 - DEBUG - Assigned msg_id = 7505865655491069880 to MsgsAck (1059a8280)
+2025-05-18 21:12:11,802 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:11,802 - INFO - File lives in another DC
+2025-05-18 21:12:11,802 - DEBUG - Borrowing sender for dc_id 4
+2025-05-18 21:12:11,803 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,803 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,803 - DEBUG - Assigned msg_id = 7505865655493058288 to GetConfigRequest (1047f7b10)
+2025-05-18 21:12:11,803 - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2025-05-18 21:12:11,803 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:11,803 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:11,955 - DEBUG - Handling RPC result for message 7505865655493058288
+2025-05-18 21:12:11,956 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:11,957 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-05-18 21:12:11,957 - DEBUG - Connection attempt 1...
+2025-05-18 21:12:12,056 - DEBUG - Connection success!
+2025-05-18 21:12:12,056 - DEBUG - New auth_key attempt 1...
+2025-05-18 21:12:14,157 - DEBUG - auth_key generation success!
+2025-05-18 21:12:14,157 - DEBUG - Starting send loop
+2025-05-18 21:12:14,157 - DEBUG - Starting receive loop
+2025-05-18 21:12:14,158 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-05-18 21:12:14,158 - INFO - Exporting auth for new borrowed sender in DcOption(id=4, ip_address='149.154.167.92', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2025-05-18 21:12:14,158 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:14,159 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:14,159 - DEBUG - Assigned msg_id = 7505865665802479716 to ExportAuthorizationRequest (1048ef4d0)
+2025-05-18 21:12:14,159 - DEBUG - Encrypting 1 message(s) in 24 bytes for sending
+2025-05-18 21:12:14,159 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:14,159 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:14,159 - DEBUG - Assigned msg_id = 7505865665805144284 to MsgsAck (10492f430)
+2025-05-18 21:12:14,159 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:14,160 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:14,160 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:14,934 - DEBUG - Handling update UpdateShort
+2025-05-18 21:12:14,935 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:15,008 - DEBUG - Handling RPC result for message 7505865665802479716
+2025-05-18 21:12:15,009 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:15,009 - DEBUG - Assigned msg_id = 7505865665202876064 to InvokeWithLayerRequest (104946990)
+2025-05-18 21:12:15,009 - DEBUG - Encrypting 1 message(s) in 216 bytes for sending
+2025-05-18 21:12:15,009 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:15,009 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:15,143 - DEBUG - Handling bad salt for message 7505865665202876064
+2025-05-18 21:12:15,143 - DEBUG - 1 message(s) will be resent
+2025-05-18 21:12:15,143 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:15,143 - DEBUG - Assigned msg_id = 7505865665740544292 to InvokeWithLayerRequest (104946990)
+2025-05-18 21:12:15,143 - DEBUG - Encrypting 1 message(s) in 216 bytes for sending
+2025-05-18 21:12:15,143 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:15,143 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:15,143 - DEBUG - Assigned msg_id = 7505865665741592380 to MsgsAck (10493dbd0)
+2025-05-18 21:12:15,144 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:15,144 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:15,144 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:15,230 - DEBUG - Handling container
+2025-05-18 21:12:15,231 - DEBUG - Handling new session created
+2025-05-18 21:12:15,231 - DEBUG - Handling acknowledge for [7505865665740544292]
+2025-05-18 21:12:15,231 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:15,245 - DEBUG - Handling RPC result for message 7505865665740544292
+2025-05-18 21:12:15,245 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:15,245 - DEBUG - Assigned msg_id = 7505865666149104092 to GetFileRequest (104929b70)
+2025-05-18 21:12:15,245 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:15,246 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:15,246 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:15,246 - DEBUG - Assigned msg_id = 7505865666150028200 to MsgsAck (10493dcc0)
+2025-05-18 21:12:15,246 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2025-05-18 21:12:15,246 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:15,246 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:15,935 - DEBUG - Handling RPC result for message 7505865666149104092
+2025-05-18 21:12:15,936 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:15,936 - DEBUG - Assigned msg_id = 7505865668910896272 to GetFileRequest (104929b70)
+2025-05-18 21:12:15,936 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:15,936 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:15,936 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:15,936 - DEBUG - Assigned msg_id = 7505865668911588640 to MsgsAck (10493e1c0)
+2025-05-18 21:12:15,936 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:15,936 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:15,936 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,031 - DEBUG - Handling RPC result for message 7505865668910896272
+2025-05-18 21:12:16,031 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:16,031 - DEBUG - Returning borrowed sender for dc_id 4
+2025-05-18 21:12:16,031 - INFO - Изображение сохранено: images/araviaprofessional_3539.jpg
+2025-05-18 21:12:16,031 - DEBUG - Пост 3539 в @araviaprofessional не содержит ключевых слов: **Как подготовить кожу к косметологической процедуре и избежать воспаления?**
+⠀
+Завтра в **прямом эф...
+2025-05-18 21:12:16,032 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:16,032 - DEBUG - Assigned msg_id = 7505865673885126328 to GetFileRequest (105916b30)
+2025-05-18 21:12:16,032 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:16,032 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,032 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,032 - DEBUG - Assigned msg_id = 7505865673885750032 to MsgsAck (10493e260)
+2025-05-18 21:12:16,032 - DEBUG - Encrypting 1 message(s) in 44 bytes for sending
+2025-05-18 21:12:16,032 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,032 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,365 - DEBUG - Handling RPC result for message 7505865673885126328
+2025-05-18 21:12:16,365 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:16,365 - INFO - Изображение сохранено: images/araviaprofessional_3538.jpg
+2025-05-18 21:12:16,365 - DEBUG - Пост 3538 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:16,366 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:16,366 - DEBUG - Assigned msg_id = 7505865675220150208 to GetFileRequest (105916b30)
+2025-05-18 21:12:16,366 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:16,366 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,366 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,366 - DEBUG - Assigned msg_id = 7505865675221019008 to MsgsAck (10493c730)
+2025-05-18 21:12:16,366 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:16,366 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,366 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,634 - DEBUG - Handling RPC result for message 7505865675220150208
+2025-05-18 21:12:16,634 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:16,635 - INFO - Изображение сохранено: images/araviaprofessional_3537.jpg
+2025-05-18 21:12:16,635 - DEBUG - Пост 3537 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:16,635 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:16,635 - DEBUG - Assigned msg_id = 7505865676297639108 to GetFileRequest (105916b30)
+2025-05-18 21:12:16,635 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:16,635 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,635 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,635 - DEBUG - Assigned msg_id = 7505865676298386788 to MsgsAck (10493e490)
+2025-05-18 21:12:16,635 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:16,635 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,635 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,849 - DEBUG - Handling RPC result for message 7505865676297639108
+2025-05-18 21:12:16,849 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:16,850 - DEBUG - Assigned msg_id = 7505865677156198716 to GetFileRequest (105916b30)
+2025-05-18 21:12:16,850 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:16,850 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,850 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,850 - DEBUG - Assigned msg_id = 7505865677156891084 to MsgsAck (10493e620)
+2025-05-18 21:12:16,850 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:16,850 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,850 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,988 - DEBUG - Handling RPC result for message 7505865677156198716
+2025-05-18 21:12:16,988 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:16,988 - INFO - Изображение сохранено: images/araviaprofessional_3536.jpg
+2025-05-18 21:12:16,988 - DEBUG - Пост 3536 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:16,989 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:16,989 - DEBUG - Assigned msg_id = 7505865677712794520 to GetFileRequest (105916b30)
+2025-05-18 21:12:16,989 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:16,989 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,989 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:16,989 - DEBUG - Assigned msg_id = 7505865677713747240 to MsgsAck (10493e670)
+2025-05-18 21:12:16,989 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:16,989 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:16,989 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,270 - DEBUG - Handling RPC result for message 7505865677712794520
+2025-05-18 21:12:17,270 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:17,270 - DEBUG - Assigned msg_id = 7505865679133129932 to GetFileRequest (105916b30)
+2025-05-18 21:12:17,270 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:17,270 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,270 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,270 - DEBUG - Assigned msg_id = 7505865679134041644 to MsgsAck (10493e710)
+2025-05-18 21:12:17,270 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:17,271 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,271 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,351 - DEBUG - Handling RPC result for message 7505865679133129932
+2025-05-18 21:12:17,352 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:17,353 - INFO - Изображение сохранено: images/araviaprofessional_3535.jpg
+2025-05-18 21:12:17,353 - DEBUG - Пост 3535 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:17,354 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:17,354 - DEBUG - Assigned msg_id = 7505865679467634060 to GetFileRequest (105916b30)
+2025-05-18 21:12:17,354 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:17,354 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,354 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,354 - DEBUG - Assigned msg_id = 7505865679469286780 to MsgsAck (10493e5d0)
+2025-05-18 21:12:17,354 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:17,355 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,355 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,588 - DEBUG - Handling RPC result for message 7505865679467634060
+2025-05-18 21:12:17,589 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:17,589 - INFO - Изображение сохранено: images/araviaprofessional_3534.jpg
+2025-05-18 21:12:17,589 - DEBUG - Пост 3534 в @araviaprofessional не содержит ключевых слов: 💊 **БАДы для красоты и здоровья**
+⠀
+БАДы — это биологически активные добавки к пище. Они имеют натур...
+2025-05-18 21:12:17,589 - DEBUG - Пост 3533 в @araviaprofessional не содержит ключевых слов: ⚡️ Эффективные сочетания процедур от ARAVIA...
+2025-05-18 21:12:17,589 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:17,590 - DEBUG - Assigned msg_id = 7505865680410834172 to GetFileRequest (105916b30)
+2025-05-18 21:12:17,590 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:17,590 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,590 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,590 - DEBUG - Assigned msg_id = 7505865680411605696 to MsgsAck (10493c960)
+2025-05-18 21:12:17,590 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:17,590 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,590 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,670 - DEBUG - Handling acknowledge for [7505865680410834172]
+2025-05-18 21:12:17,670 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:17,673 - DEBUG - Handling update Updates
+2025-05-18 21:12:17,673 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:17,834 - DEBUG - Handling RPC result for message 7505865680410834172
+2025-05-18 21:12:17,834 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:17,835 - DEBUG - Assigned msg_id = 7505865681390722136 to GetFileRequest (105916b30)
+2025-05-18 21:12:17,835 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:17,835 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,835 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:17,835 - DEBUG - Assigned msg_id = 7505865681391586164 to MsgsAck (10493e8a0)
+2025-05-18 21:12:17,835 - DEBUG - Encrypting 1 message(s) in 52 bytes for sending
+2025-05-18 21:12:17,835 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:17,835 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,020 - DEBUG - Handling RPC result for message 7505865681390722136
+2025-05-18 21:12:18,020 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:18,020 - INFO - Изображение сохранено: images/araviaprofessional_3532.jpg
+2025-05-18 21:12:18,020 - DEBUG - Пост 3532 в @araviaprofessional не содержит ключевых слов: ...
+2025-05-18 21:12:18,021 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:18,021 - DEBUG - Assigned msg_id = 7505865682430529100 to GetFileRequest (105916b30)
+2025-05-18 21:12:18,021 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:18,021 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,021 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,021 - DEBUG - Assigned msg_id = 7505865682431373100 to MsgsAck (10493ca50)
+2025-05-18 21:12:18,021 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:18,021 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,021 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,106 - DEBUG - Handling container
+2025-05-18 21:12:18,106 - DEBUG - Handling update UpdateShort
+2025-05-18 21:12:18,106 - DEBUG - Handling acknowledge for [7505865682430529100]
+2025-05-18 21:12:18,106 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:18,259 - DEBUG - Handling RPC result for message 7505865682430529100
+2025-05-18 21:12:18,259 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:18,259 - DEBUG - Assigned msg_id = 7505865683383745652 to GetFileRequest (105916b30)
+2025-05-18 21:12:18,259 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:18,259 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,259 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,259 - DEBUG - Assigned msg_id = 7505865683384561996 to MsgsAck (10493c9b0)
+2025-05-18 21:12:18,259 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2025-05-18 21:12:18,259 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,260 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,414 - DEBUG - Handling RPC result for message 7505865683383745652
+2025-05-18 21:12:18,414 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:18,414 - INFO - Изображение сохранено: images/araviaprofessional_3531.jpg
+2025-05-18 21:12:18,414 - INFO - Найдены ссылки в посте 3531 в @araviaprofessional: ['https://aravia-academy.ru/courses/cosmetology/retinol-novogo-pokoleniya-5-shagov-dlya-effektivnogo-omolozheniya/?sphrase_id=11957)']
+2025-05-18 21:12:18,414 - INFO - Добавлена акция: канал=@araviaprofessional, пост=3531, дата=2025-05-12T14:00:13, ключевые слова=['уход']
+2025-05-18 21:12:18,414 - INFO - Попытка сохранить 13 акций в telegram_promotions.json
+2025-05-18 21:12:18,415 - INFO - Успешно сохранено 13 акций в telegram_promotions.json
+2025-05-18 21:12:18,415 - DEBUG - Пост 3530 в @araviaprofessional не содержит ключевых слов: 🎁 РОЗЫГРЫШ
+
+Кудрявые или прямые?
+Одинаково эффектно могут выглядеть оба типа волос, если ухаживать з...
+2025-05-18 21:12:18,415 - INFO - Достигнута дата 2025-05-08 13:00:12+00:00 в @araviaprofessional, старше 2025-05-11
+2025-05-18 21:12:18,415 - INFO - Попытка сохранить 13 акций в telegram_promotions.json
+2025-05-18 21:12:18,416 - INFO - Успешно сохранено 13 акций в telegram_promotions.json
+2025-05-18 21:12:18,416 - DEBUG - Assigned msg_id = 7505865684011846048 to ResolveUsernameRequest (1048d9e00)
+2025-05-18 21:12:18,416 - DEBUG - Encrypting 1 message(s) in 44 bytes for sending
+2025-05-18 21:12:18,416 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,416 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,416 - DEBUG - Assigned msg_id = 7505865684012492636 to MsgsAck (105989950)
+2025-05-18 21:12:18,416 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:18,416 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,416 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,501 - DEBUG - Handling RPC result for message 7505865684011846048
+2025-05-18 21:12:18,501 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:18,501 - INFO - Парсинг канала: @aravialaboratories (Косметика ARAVIA Laboratories)
+2025-05-18 21:12:18,502 - DEBUG - Assigned msg_id = 7505865684354149324 to GetHistoryRequest (1048d9ba0)
+2025-05-18 21:12:18,502 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-05-18 21:12:18,502 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,502 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,502 - DEBUG - Assigned msg_id = 7505865684354813080 to MsgsAck (1059883c0)
+2025-05-18 21:12:18,502 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:18,502 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,502 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,949 - DEBUG - Handling RPC result for message 7505865684354149324
+2025-05-18 21:12:18,966 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:18,968 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:18,969 - DEBUG - Assigned msg_id = 7505865686221912844 to GetFileRequest (105982120)
+2025-05-18 21:12:18,969 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:18,969 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,969 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:18,969 - DEBUG - Assigned msg_id = 7505865686222834092 to MsgsAck (1059be490)
+2025-05-18 21:12:18,969 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:18,969 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:18,969 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:19,052 - DEBUG - Handling RPC result for message 7505865686221912844
+2025-05-18 21:12:19,052 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:19,052 - DEBUG - Assigned msg_id = 7505865686849744900 to MsgsAck (1059be800)
+2025-05-18 21:12:19,052 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:19,052 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:19,052 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:19,052 - DEBUG - Assigned msg_id = 7505865686850680452 to MsgsAck (1059bea80)
+2025-05-18 21:12:19,052 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:19,052 - INFO - File lives in another DC
+2025-05-18 21:12:19,052 - DEBUG - Borrowing sender for dc_id 4
+2025-05-18 21:12:19,052 - DEBUG - Assigned msg_id = 7505865682557209472 to GetFileRequest (105982120)
+2025-05-18 21:12:19,052 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:19,053 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:19,053 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:19,053 - DEBUG - Assigned msg_id = 7505865682558128816 to MsgsAck (10493e580)
+2025-05-18 21:12:19,053 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:19,053 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:19,053 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:19,053 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:19,053 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:19,659 - DEBUG - Handling RPC result for message 7505865682557209472
+2025-05-18 21:12:19,659 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:19,660 - DEBUG - Assigned msg_id = 7505865684985677224 to GetFileRequest (105982120)
+2025-05-18 21:12:19,660 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:19,660 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:19,660 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:19,660 - DEBUG - Assigned msg_id = 7505865684986452560 to MsgsAck (1059bead0)
+2025-05-18 21:12:19,660 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:19,660 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:19,660 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:19,855 - DEBUG - Handling RPC result for message 7505865684985677224
+2025-05-18 21:12:19,855 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:19,856 - DEBUG - Returning borrowed sender for dc_id 4
+2025-05-18 21:12:19,856 - INFO - Изображение сохранено: images/aravialaboratories_1766.jpg
+2025-05-18 21:12:19,857 - INFO - Добавлена акция: канал=@aravialaboratories, пост=1766, дата=2025-05-16T07:00:19, ключевые слова=['уход']
+2025-05-18 21:12:19,857 - INFO - Попытка сохранить 14 акций в telegram_promotions.json
+2025-05-18 21:12:19,858 - INFO - Успешно сохранено 14 акций в telegram_promotions.json
+2025-05-18 21:12:19,859 - INFO - Добавлена акция: канал=@aravialaboratories, пост=1765, дата=2025-05-15T07:04:58, ключевые слова=['уход']
+2025-05-18 21:12:19,859 - INFO - Попытка сохранить 15 акций в telegram_promotions.json
+2025-05-18 21:12:19,860 - INFO - Успешно сохранено 15 акций в telegram_promotions.json
+2025-05-18 21:12:19,860 - DEBUG - Пост 1764 в @aravialaboratories не содержит ключевых слов: **На карте последние 350 рублей.**
+⠀
+__Ты: надо бы сэкономить...
+Также ты (через 5 минут): клац — оф...
+2025-05-18 21:12:19,861 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:19,861 - DEBUG - Assigned msg_id = 7505865690085668668 to GetFileRequest (105917ee0)
+2025-05-18 21:12:19,861 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:19,861 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:19,861 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,072 - DEBUG - Handling RPC result for message 7505865690085668668
+2025-05-18 21:12:20,073 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:20,073 - INFO - Изображение сохранено: images/aravialaboratories_1763.jpg
+2025-05-18 21:12:20,073 - DEBUG - Пост 1763 в @aravialaboratories не содержит ключевых слов: ...
+2025-05-18 21:12:20,074 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:20,074 - DEBUG - Assigned msg_id = 7505865691232440696 to GetFileRequest (105917af0)
+2025-05-18 21:12:20,074 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:20,074 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,074 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,074 - DEBUG - Assigned msg_id = 7505865691233487832 to MsgsAck (1059bec60)
+2025-05-18 21:12:20,074 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:20,074 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,074 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,340 - DEBUG - Handling RPC result for message 7505865691232440696
+2025-05-18 21:12:20,340 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:20,341 - DEBUG - Assigned msg_id = 7505865692300455796 to GetFileRequest (105917af0)
+2025-05-18 21:12:20,341 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:20,341 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,341 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,341 - DEBUG - Assigned msg_id = 7505865692301368460 to MsgsAck (1059be940)
+2025-05-18 21:12:20,341 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:20,341 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,341 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,561 - DEBUG - Handling RPC result for message 7505865692300455796
+2025-05-18 21:12:20,561 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:20,562 - INFO - Изображение сохранено: images/aravialaboratories_1762.jpg
+2025-05-18 21:12:20,562 - DEBUG - Пост 1762 в @aravialaboratories не содержит ключевых слов: Fresh start: твоя кожа готова к лету?
+
+Весна — это про пробуждение. А лето требует обновления.
+⠀
+Есл...
+2025-05-18 21:12:20,562 - DEBUG - Пост 1761 в @aravialaboratories не содержит ключевых слов: 🎉 **Розыгрыш завершен!** 
+
+🏆 **Победители:**
+1. [@LarLariLar](tg://user?id=5243315536)
+2. [@jxfawesf...
+2025-05-18 21:12:20,562 - DEBUG - Пост 1760 в @aravialaboratories не содержит ключевых слов: 🤍Увлажнение — это база. Без него никуда🤍
+
+Даже если кожа жирная. Даже если “ничего не сохнет”. Даже ...
+2025-05-18 21:12:20,563 - INFO - Добавлена акция: канал=@aravialaboratories, пост=1759, дата=2025-05-12T15:03:05, ключевые слова=['уход']
+2025-05-18 21:12:20,563 - INFO - Попытка сохранить 16 акций в telegram_promotions.json
+2025-05-18 21:12:20,563 - INFO - Успешно сохранено 16 акций в telegram_promotions.json
+2025-05-18 21:12:20,564 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:20,564 - DEBUG - Assigned msg_id = 7505865693192675336 to GetFileRequest (105917bd0)
+2025-05-18 21:12:20,564 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:20,564 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,564 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,564 - DEBUG - Assigned msg_id = 7505865693193520292 to MsgsAck (1059be3f0)
+2025-05-18 21:12:20,564 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:20,564 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,564 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,758 - DEBUG - Handling RPC result for message 7505865693192675336
+2025-05-18 21:12:20,758 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:20,758 - INFO - Изображение сохранено: images/aravialaboratories_1758.jpg
+2025-05-18 21:12:20,758 - DEBUG - Пост 1758 в @aravialaboratories не содержит ключевых слов: ...
+2025-05-18 21:12:20,758 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:20,759 - DEBUG - Assigned msg_id = 7505865693971416220 to GetFileRequest (105917bd0)
+2025-05-18 21:12:20,759 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:20,759 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,759 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:20,759 - DEBUG - Assigned msg_id = 7505865693972075208 to MsgsAck (1059beee0)
+2025-05-18 21:12:20,759 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:20,759 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:20,759 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:21,197 - DEBUG - Handling RPC result for message 7505865693971416220
+2025-05-18 21:12:21,197 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:21,197 - INFO - Изображение сохранено: images/aravialaboratories_1757.jpg
+2025-05-18 21:12:21,197 - DEBUG - Пост 1757 в @aravialaboratories не содержит ключевых слов: Если ты ищешь универсальное средство “на все случаи” — вот оно.
+
+Эта смягчающая эмульсия — мастхэв д...
+2025-05-18 21:12:21,198 - INFO - Добавлена акция: канал=@aravialaboratories, пост=1755, дата=2025-05-11T15:02:51, ключевые слова=['уход']
+2025-05-18 21:12:21,198 - INFO - Попытка сохранить 17 акций в telegram_promotions.json
+2025-05-18 21:12:21,198 - INFO - Успешно сохранено 17 акций в telegram_promotions.json
+2025-05-18 21:12:21,198 - INFO - Достигнута дата 2025-05-10 11:34:57+00:00 в @aravialaboratories, старше 2025-05-11
+2025-05-18 21:12:21,199 - INFO - Попытка сохранить 17 акций в telegram_promotions.json
+2025-05-18 21:12:21,199 - INFO - Успешно сохранено 17 акций в telegram_promotions.json
+2025-05-18 21:12:21,199 - DEBUG - Assigned msg_id = 7505865696030019152 to ResolveUsernameRequest (104930ef0)
+2025-05-18 21:12:21,199 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-05-18 21:12:21,200 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:21,200 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:21,200 - DEBUG - Assigned msg_id = 7505865696030763020 to MsgsAck (105955bd0)
+2025-05-18 21:12:21,200 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:21,200 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:21,200 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:21,372 - DEBUG - Handling RPC result for message 7505865696030019152
+2025-05-18 21:12:21,373 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:21,373 - INFO - Парсинг канала: @kpcosm (Краснополянская Косметика)
+2025-05-18 21:12:21,373 - DEBUG - Assigned msg_id = 7505865696724439012 to GetHistoryRequest (1049304d0)
+2025-05-18 21:12:21,373 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-05-18 21:12:21,373 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:21,373 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:21,373 - DEBUG - Assigned msg_id = 7505865696725374568 to MsgsAck (105954190)
+2025-05-18 21:12:21,373 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:21,373 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:21,373 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:21,852 - DEBUG - Handling RPC result for message 7505865696724439012
+2025-05-18 21:12:21,858 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:21,860 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:21,860 - DEBUG - Assigned msg_id = 7505865698672223436 to GetFileRequest (105917770)
+2025-05-18 21:12:21,860 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:21,860 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:21,860 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:21,860 - DEBUG - Assigned msg_id = 7505865698673027384 to MsgsAck (105955d10)
+2025-05-18 21:12:21,860 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:21,860 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:21,860 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:22,341 - DEBUG - Handling RPC result for message 7505865698672223436
+2025-05-18 21:12:22,341 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:22,341 - DEBUG - Assigned msg_id = 7505865700891939152 to GetFileRequest (105917770)
+2025-05-18 21:12:22,341 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:22,341 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:22,341 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:22,341 - DEBUG - Assigned msg_id = 7505865700892866124 to MsgsAck (1059bd270)
+2025-05-18 21:12:22,341 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:22,342 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:22,342 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:22,697 - DEBUG - Handling RPC result for message 7505865700891939152
+2025-05-18 21:12:22,697 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:22,697 - DEBUG - Assigned msg_id = 7505865702316417684 to GetFileRequest (105917770)
+2025-05-18 21:12:22,697 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:22,697 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:22,697 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:22,698 - DEBUG - Assigned msg_id = 7505865702317378988 to MsgsAck (1059548c0)
+2025-05-18 21:12:22,698 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:22,698 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:22,698 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:22,949 - DEBUG - Handling RPC result for message 7505865702316417684
+2025-05-18 21:12:22,950 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:22,950 - DEBUG - Assigned msg_id = 7505865703326754560 to GetFileRequest (105917770)
+2025-05-18 21:12:22,950 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:22,950 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:22,950 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:22,950 - DEBUG - Assigned msg_id = 7505865703327533712 to MsgsAck (10493e710)
+2025-05-18 21:12:22,950 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:22,950 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:22,950 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,171 - DEBUG - Handling RPC result for message 7505865703326754560
+2025-05-18 21:12:23,171 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:23,172 - INFO - Изображение сохранено: images/kpcosm_1602.jpg
+2025-05-18 21:12:23,172 - DEBUG - Пост 1602 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:23,173 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:23,173 - DEBUG - Assigned msg_id = 7505865704514597528 to GetFileRequest (105917770)
+2025-05-18 21:12:23,173 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:23,173 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,173 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,173 - DEBUG - Assigned msg_id = 7505865704515901200 to MsgsAck (105956620)
+2025-05-18 21:12:23,173 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:23,174 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,174 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,389 - DEBUG - Handling RPC result for message 7505865704514597528
+2025-05-18 21:12:23,389 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:23,389 - DEBUG - Assigned msg_id = 7505865705378734224 to GetFileRequest (105917770)
+2025-05-18 21:12:23,389 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:23,389 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,389 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,389 - DEBUG - Assigned msg_id = 7505865705379414192 to MsgsAck (1059bcfa0)
+2025-05-18 21:12:23,389 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:23,389 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,389 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,558 - DEBUG - Handling RPC result for message 7505865705378734224
+2025-05-18 21:12:23,558 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:23,558 - INFO - Изображение сохранено: images/kpcosm_1601.jpg
+2025-05-18 21:12:23,558 - DEBUG - Пост 1601 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:23,558 - DEBUG - Пост 1600 в @kpcosm не содержит ключевых слов: Онлайн с полей и полностью готовое вещество из лепестков розы 🌹...
+2025-05-18 21:12:23,559 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:23,559 - DEBUG - Assigned msg_id = 7505865706059425944 to GetFileRequest (105917770)
+2025-05-18 21:12:23,559 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:23,559 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,559 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,560 - DEBUG - Assigned msg_id = 7505865706060437792 to MsgsAck (1059bd2c0)
+2025-05-18 21:12:23,560 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:23,560 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,560 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,814 - DEBUG - Handling RPC result for message 7505865706059425944
+2025-05-18 21:12:23,815 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:23,815 - INFO - Изображение сохранено: images/kpcosm_1599.jpg
+2025-05-18 21:12:23,815 - DEBUG - Пост 1599 в @kpcosm не содержит ключевых слов: Помните эксперименты с экстракцией розы в лаборатории? Делюсь результатом одного из экспериментов. О...
+2025-05-18 21:12:23,815 - DEBUG - Пост 1598 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:23,815 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:23,815 - DEBUG - Assigned msg_id = 7505865707083389872 to GetFileRequest (105917770)
+2025-05-18 21:12:23,815 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:23,815 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,815 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:23,815 - DEBUG - Assigned msg_id = 7505865707084241504 to MsgsAck (1059bd040)
+2025-05-18 21:12:23,816 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:23,816 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:23,816 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,059 - DEBUG - Handling RPC result for message 7505865707083389872
+2025-05-18 21:12:24,059 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:24,059 - DEBUG - Assigned msg_id = 7505865708353784796 to GetFileRequest (105917770)
+2025-05-18 21:12:24,059 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:24,059 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,059 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,059 - DEBUG - Assigned msg_id = 7505865708354632612 to MsgsAck (1059bcff0)
+2025-05-18 21:12:24,059 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:24,060 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,060 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,297 - DEBUG - Handling RPC result for message 7505865708353784796
+2025-05-18 21:12:24,297 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:24,299 - INFO - Изображение сохранено: images/kpcosm_1597.jpg
+2025-05-18 21:12:24,299 - DEBUG - Пост 1597 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:24,299 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:24,299 - DEBUG - Assigned msg_id = 7505865709314437144 to GetFileRequest (105917770)
+2025-05-18 21:12:24,299 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:24,299 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,299 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,300 - DEBUG - Assigned msg_id = 7505865709315381284 to MsgsAck (1059bed50)
+2025-05-18 21:12:24,300 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:24,300 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,300 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,639 - DEBUG - Handling RPC result for message 7505865709314437144
+2025-05-18 21:12:24,639 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:24,639 - DEBUG - Assigned msg_id = 7505865710674352880 to GetFileRequest (105917770)
+2025-05-18 21:12:24,639 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:24,639 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,640 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,640 - DEBUG - Assigned msg_id = 7505865710675672764 to MsgsAck (1059bec60)
+2025-05-18 21:12:24,640 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:24,640 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,640 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,727 - DEBUG - Handling acknowledge for [7505865710674352880]
+2025-05-18 21:12:24,727 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:24,751 - DEBUG - Handling update Updates
+2025-05-18 21:12:24,752 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:24,910 - DEBUG - Handling RPC result for message 7505865710674352880
+2025-05-18 21:12:24,910 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:24,911 - INFO - Изображение сохранено: images/kpcosm_1596.jpg
+2025-05-18 21:12:24,911 - DEBUG - Пост 1596 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:24,912 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:24,912 - DEBUG - Assigned msg_id = 7505865711764241452 to GetFileRequest (105917770)
+2025-05-18 21:12:24,912 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:24,912 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,912 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:24,912 - DEBUG - Assigned msg_id = 7505865711765417332 to MsgsAck (10493cd20)
+2025-05-18 21:12:24,912 - DEBUG - Encrypting 1 message(s) in 52 bytes for sending
+2025-05-18 21:12:24,912 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:24,912 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:25,206 - DEBUG - Handling RPC result for message 7505865711764241452
+2025-05-18 21:12:25,206 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:25,207 - DEBUG - Assigned msg_id = 7505865713238600608 to GetFileRequest (105917770)
+2025-05-18 21:12:25,207 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:25,207 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:25,207 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:25,207 - DEBUG - Assigned msg_id = 7505865713239423628 to MsgsAck (1059bd360)
+2025-05-18 21:12:25,207 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:25,207 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:25,207 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:25,488 - DEBUG - Handling RPC result for message 7505865713238600608
+2025-05-18 21:12:25,488 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:25,488 - DEBUG - Assigned msg_id = 7505865714365444060 to GetFileRequest (105917770)
+2025-05-18 21:12:25,488 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:25,488 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:25,488 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:25,488 - DEBUG - Assigned msg_id = 7505865714366152640 to MsgsAck (1059bd680)
+2025-05-18 21:12:25,488 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:25,489 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:25,489 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:25,666 - DEBUG - Handling container
+2025-05-18 21:12:25,666 - DEBUG - Handling update Updates
+2025-05-18 21:12:25,666 - DEBUG - Handling acknowledge for [7505865714365444060]
+2025-05-18 21:12:25,666 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:25,709 - DEBUG - Handling RPC result for message 7505865714365444060
+2025-05-18 21:12:25,709 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:25,710 - INFO - Изображение сохранено: images/kpcosm_1595.jpg
+2025-05-18 21:12:25,710 - DEBUG - Пост 1595 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:25,710 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:25,710 - DEBUG - Assigned msg_id = 7505865715253727792 to GetFileRequest (105917770)
+2025-05-18 21:12:25,710 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:25,710 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:25,711 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:25,711 - DEBUG - Assigned msg_id = 7505865715254428740 to MsgsAck (105955d10)
+2025-05-18 21:12:25,711 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2025-05-18 21:12:25,711 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:25,711 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,006 - DEBUG - Handling RPC result for message 7505865715253727792
+2025-05-18 21:12:26,006 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:26,006 - DEBUG - Assigned msg_id = 7505865716731547832 to GetFileRequest (105917770)
+2025-05-18 21:12:26,006 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:26,006 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,006 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,006 - DEBUG - Assigned msg_id = 7505865716732295512 to MsgsAck (1059bd900)
+2025-05-18 21:12:26,006 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:26,006 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,006 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,344 - DEBUG - Handling RPC result for message 7505865716731547832
+2025-05-18 21:12:26,344 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:26,344 - DEBUG - Assigned msg_id = 7505865718084948064 to GetFileRequest (105917770)
+2025-05-18 21:12:26,344 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:26,345 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,345 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,345 - DEBUG - Assigned msg_id = 7505865718085764408 to MsgsAck (1059bda90)
+2025-05-18 21:12:26,345 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:26,345 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,345 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,523 - DEBUG - Handling RPC result for message 7505865718084948064
+2025-05-18 21:12:26,523 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:26,523 - INFO - Изображение сохранено: images/kpcosm_1594.jpg
+2025-05-18 21:12:26,523 - DEBUG - Пост 1594 в @kpcosm не содержит ключевых слов: Вечер на ферме....
+2025-05-18 21:12:26,523 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:26,524 - DEBUG - Assigned msg_id = 7505865718801427364 to GetFileRequest (105917770)
+2025-05-18 21:12:26,524 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:26,524 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,524 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,524 - DEBUG - Assigned msg_id = 7505865718802222728 to MsgsAck (105954140)
+2025-05-18 21:12:26,524 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:26,524 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,524 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,825 - DEBUG - Handling RPC result for message 7505865718801427364
+2025-05-18 21:12:26,825 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:26,825 - DEBUG - Assigned msg_id = 7505865720007715700 to GetFileRequest (105917770)
+2025-05-18 21:12:26,825 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:26,825 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,825 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,825 - DEBUG - Assigned msg_id = 7505865720008479596 to MsgsAck (1059bd7c0)
+2025-05-18 21:12:26,825 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:26,825 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,826 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,975 - DEBUG - Handling RPC result for message 7505865720007715700
+2025-05-18 21:12:26,975 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:26,976 - INFO - Изображение сохранено: images/kpcosm_1593.jpg
+2025-05-18 21:12:26,976 - DEBUG - Пост 1593 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:26,977 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:26,977 - DEBUG - Assigned msg_id = 7505865720615071772 to GetFileRequest (105917770)
+2025-05-18 21:12:26,977 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:26,977 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,977 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:26,977 - DEBUG - Assigned msg_id = 7505865720616695880 to MsgsAck (105954280)
+2025-05-18 21:12:26,977 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:26,978 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:26,978 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,309 - DEBUG - Handling RPC result for message 7505865720615071772
+2025-05-18 21:12:27,309 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:27,310 - DEBUG - Assigned msg_id = 7505865722240678908 to GetFileRequest (105917770)
+2025-05-18 21:12:27,310 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:27,310 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,310 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,310 - DEBUG - Assigned msg_id = 7505865722241362692 to MsgsAck (1059bdae0)
+2025-05-18 21:12:27,310 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:27,310 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,310 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,417 - DEBUG - Handling RPC result for message 7505865722240678908
+2025-05-18 21:12:27,417 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:27,418 - INFO - Изображение сохранено: images/kpcosm_1592.jpg
+2025-05-18 21:12:27,418 - DEBUG - Пост 1592 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:27,419 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:27,419 - DEBUG - Assigned msg_id = 7505865722679679036 to GetFileRequest (105917770)
+2025-05-18 21:12:27,419 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:27,420 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,420 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,420 - DEBUG - Assigned msg_id = 7505865722680927396 to MsgsAck (1059bd540)
+2025-05-18 21:12:27,420 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:27,420 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,420 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,734 - DEBUG - Handling RPC result for message 7505865722679679036
+2025-05-18 21:12:27,734 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:27,734 - INFO - Изображение сохранено: images/kpcosm_1591.jpg
+2025-05-18 21:12:27,735 - DEBUG - Пост 1591 в @kpcosm не содержит ключевых слов: Саша — сердце нашей команды, настоящая мамочка для нас
+
+Пока маркетинг готовит грандиозный пресс-тур...
+2025-05-18 21:12:27,735 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:27,735 - DEBUG - Assigned msg_id = 7505865723942058684 to GetFileRequest (105917770)
+2025-05-18 21:12:27,735 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:27,735 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,735 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,735 - DEBUG - Assigned msg_id = 7505865723942747236 to MsgsAck (1059bd5e0)
+2025-05-18 21:12:27,735 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:27,735 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,735 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,951 - DEBUG - Handling RPC result for message 7505865723942058684
+2025-05-18 21:12:27,951 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:27,951 - INFO - Изображение сохранено: images/kpcosm_1590.jpg
+2025-05-18 21:12:27,951 - DEBUG - Пост 1590 в @kpcosm не содержит ключевых слов: Друзья, мы знаем, вы этого ждали 🤗🌸 
+
+Приглашаем волонтёров на ежегодный сбор дамасской розы!
+
+Дамас...
+2025-05-18 21:12:27,952 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:27,952 - DEBUG - Assigned msg_id = 7505865724811542632 to GetFileRequest (105917770)
+2025-05-18 21:12:27,952 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:27,952 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,953 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:27,953 - DEBUG - Assigned msg_id = 7505865724812394264 to MsgsAck (1059bd1d0)
+2025-05-18 21:12:27,953 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:27,953 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:27,953 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:28,281 - DEBUG - Handling RPC result for message 7505865724811542632
+2025-05-18 21:12:28,281 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:28,281 - DEBUG - Assigned msg_id = 7505865726422325852 to GetFileRequest (105917770)
+2025-05-18 21:12:28,281 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:28,281 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:28,281 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:28,281 - DEBUG - Assigned msg_id = 7505865726422974352 to MsgsAck (1059bd9f0)
+2025-05-18 21:12:28,281 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:28,282 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:28,282 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:28,593 - DEBUG - Handling RPC result for message 7505865726422325852
+2025-05-18 21:12:28,593 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:28,593 - INFO - Изображение сохранено: images/kpcosm_1589.jpg
+2025-05-18 21:12:28,593 - DEBUG - Пост 1589 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:28,594 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:28,594 - DEBUG - Assigned msg_id = 7505865727674694780 to GetFileRequest (105917770)
+2025-05-18 21:12:28,594 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:28,595 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:28,595 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:28,595 - DEBUG - Assigned msg_id = 7505865727675493960 to MsgsAck (1059bd4a0)
+2025-05-18 21:12:28,595 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:28,595 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:28,595 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:28,868 - DEBUG - Handling RPC result for message 7505865727674694780
+2025-05-18 21:12:28,868 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:28,868 - INFO - Изображение сохранено: images/kpcosm_1588.jpg
+2025-05-18 21:12:28,868 - DEBUG - Пост 1588 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:28,868 - DEBUG - Пост 1587 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:28,869 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:28,869 - DEBUG - Assigned msg_id = 7505865728774118188 to GetFileRequest (105917770)
+2025-05-18 21:12:28,869 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:28,869 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:28,869 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:28,869 - DEBUG - Assigned msg_id = 7505865728774829628 to MsgsAck (1059bcf00)
+2025-05-18 21:12:28,869 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:28,870 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:28,870 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:29,413 - DEBUG - Handling RPC result for message 7505865728774118188
+2025-05-18 21:12:29,413 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:29,413 - DEBUG - Assigned msg_id = 7505865731244248752 to GetFileRequest (105917770)
+2025-05-18 21:12:29,413 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:29,413 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:29,413 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:29,413 - DEBUG - Assigned msg_id = 7505865731245097524 to MsgsAck (1059be030)
+2025-05-18 21:12:29,413 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:29,413 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:29,413 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:29,832 - DEBUG - Handling RPC result for message 7505865731244248752
+2025-05-18 21:12:29,832 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:29,833 - INFO - Изображение сохранено: images/kpcosm_1586.jpg
+2025-05-18 21:12:29,833 - DEBUG - Пост 1586 в @kpcosm не содержит ключевых слов: Сегодня провели весь день в лаборатории с дочкой. Она выбрала работать с розой. Первым делом отправи...
+2025-05-18 21:12:29,833 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:29,833 - DEBUG - Assigned msg_id = 7505865732925221808 to GetFileRequest (105917770)
+2025-05-18 21:12:29,833 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:29,833 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:29,833 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:29,833 - DEBUG - Assigned msg_id = 7505865732926044828 to MsgsAck (1059bd6d0)
+2025-05-18 21:12:29,834 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:29,834 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:29,834 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:30,294 - DEBUG - Handling RPC result for message 7505865732925221808
+2025-05-18 21:12:30,294 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:30,294 - DEBUG - Assigned msg_id = 7505865735062956820 to GetFileRequest (105917770)
+2025-05-18 21:12:30,294 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:30,294 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:30,294 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:30,294 - DEBUG - Assigned msg_id = 7505865735063800820 to MsgsAck (1059bdb30)
+2025-05-18 21:12:30,294 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:30,294 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:30,294 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:30,524 - DEBUG - Handling RPC result for message 7505865735062956820
+2025-05-18 21:12:30,525 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:30,525 - INFO - Изображение сохранено: images/kpcosm_1585.jpg
+2025-05-18 21:12:30,525 - DEBUG - Пост 1585 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:30,526 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:30,526 - DEBUG - Assigned msg_id = 7505865735991004952 to GetFileRequest (105917770)
+2025-05-18 21:12:30,526 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:30,526 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:30,526 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:30,526 - DEBUG - Assigned msg_id = 7505865735992373476 to MsgsAck (1059bd4f0)
+2025-05-18 21:12:30,526 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:30,527 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:30,527 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:30,862 - DEBUG - Handling RPC result for message 7505865735991004952
+2025-05-18 21:12:30,862 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:30,862 - INFO - Изображение сохранено: images/kpcosm_1584.jpg
+2025-05-18 21:12:30,862 - DEBUG - Пост 1584 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:30,862 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:30,862 - DEBUG - Assigned msg_id = 7505865737336980828 to GetFileRequest (105917770)
+2025-05-18 21:12:30,863 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:30,863 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:30,863 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:30,863 - DEBUG - Assigned msg_id = 7505865737337784776 to MsgsAck (1059bcff0)
+2025-05-18 21:12:30,863 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:30,863 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:30,863 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,147 - DEBUG - Handling RPC result for message 7505865737336980828
+2025-05-18 21:12:31,147 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:31,147 - INFO - Изображение сохранено: images/kpcosm_1583.jpg
+2025-05-18 21:12:31,147 - DEBUG - Пост 1583 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:31,147 - DEBUG - Пост 1582 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:31,147 - DEBUG - Пост 1581 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:31,147 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:31,148 - DEBUG - Assigned msg_id = 7505865738772295604 to GetFileRequest (105917770)
+2025-05-18 21:12:31,148 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:31,148 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,148 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,148 - DEBUG - Assigned msg_id = 7505865738773075712 to MsgsAck (1059bd2c0)
+2025-05-18 21:12:31,148 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:31,148 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,148 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,406 - DEBUG - Handling RPC result for message 7505865738772295604
+2025-05-18 21:12:31,406 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:31,406 - INFO - Изображение сохранено: images/kpcosm_1580.jpg
+2025-05-18 21:12:31,406 - DEBUG - Пост 1580 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:31,407 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:31,407 - DEBUG - Assigned msg_id = 7505865739809911380 to GetFileRequest (105917770)
+2025-05-18 21:12:31,407 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:31,407 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,407 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,407 - DEBUG - Assigned msg_id = 7505865739810756336 to MsgsAck (1059be350)
+2025-05-18 21:12:31,407 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:31,407 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,407 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,482 - DEBUG - Handling container
+2025-05-18 21:12:31,482 - DEBUG - Handling update UpdateShort
+2025-05-18 21:12:31,482 - DEBUG - Handling acknowledge for [7505865739809911380]
+2025-05-18 21:12:31,482 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:31,724 - DEBUG - Handling RPC result for message 7505865739809911380
+2025-05-18 21:12:31,724 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:31,724 - INFO - Изображение сохранено: images/kpcosm_1579.jpg
+2025-05-18 21:12:31,724 - DEBUG - Пост 1579 в @kpcosm не содержит ключевых слов: ...
+2025-05-18 21:12:31,724 - DEBUG - Пост 1578 в @kpcosm не содержит ключевых слов: Зарисовки одного дня в лаборатории. Более десяти процессов идет одновременно 🌱...
+2025-05-18 21:12:31,724 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:31,725 - DEBUG - Assigned msg_id = 7505865741080252300 to GetFileRequest (105917770)
+2025-05-18 21:12:31,725 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:31,725 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,725 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,725 - DEBUG - Assigned msg_id = 7505865741081188808 to MsgsAck (1059bd720)
+2025-05-18 21:12:31,725 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2025-05-18 21:12:31,725 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,725 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,983 - DEBUG - Handling RPC result for message 7505865741080252300
+2025-05-18 21:12:31,983 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:31,983 - DEBUG - Assigned msg_id = 7505865742115875852 to GetFileRequest (105917770)
+2025-05-18 21:12:31,983 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:31,984 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,984 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:31,984 - DEBUG - Assigned msg_id = 7505865742116652140 to MsgsAck (1059bdd60)
+2025-05-18 21:12:31,984 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:31,984 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:31,984 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,104 - DEBUG - Handling RPC result for message 7505865742115875852
+2025-05-18 21:12:32,104 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:32,105 - INFO - Изображение сохранено: images/kpcosm_1577.jpg
+2025-05-18 21:12:32,105 - DEBUG - Пост 1577 в @kpcosm не содержит ключевых слов: Мечты сбываются!
+Наша грибная ферма набирает обороты — первые ростки кордицепса уже радуют глаз! Ско...
+2025-05-18 21:12:32,105 - INFO - Достигнута дата 2025-05-10 14:09:54+00:00 в @kpcosm, старше 2025-05-11
+2025-05-18 21:12:32,105 - INFO - Попытка сохранить 17 акций в telegram_promotions.json
+2025-05-18 21:12:32,106 - INFO - Успешно сохранено 17 акций в telegram_promotions.json
+2025-05-18 21:12:32,106 - DEBUG - Assigned msg_id = 7505865742900663628 to ResolveUsernameRequest (10486ead0)
+2025-05-18 21:12:32,106 - DEBUG - Encrypting 1 message(s) in 40 bytes for sending
+2025-05-18 21:12:32,106 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,106 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,106 - DEBUG - Assigned msg_id = 7505865742901335012 to MsgsAck (105954460)
+2025-05-18 21:12:32,106 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:32,106 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,106 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,191 - DEBUG - Handling RPC result for message 7505865742900663628
+2025-05-18 21:12:32,192 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:32,192 - INFO - Парсинг канала: @geltek_skincare (Гели всея Руси)
+2025-05-18 21:12:32,192 - DEBUG - Assigned msg_id = 7505865743245106948 to GetHistoryRequest (10486df20)
+2025-05-18 21:12:32,192 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-05-18 21:12:32,192 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,192 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,192 - DEBUG - Assigned msg_id = 7505865743246311440 to MsgsAck (1059541e0)
+2025-05-18 21:12:32,192 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:32,193 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,193 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,460 - DEBUG - Handling RPC result for message 7505865743245106948
+2025-05-18 21:12:32,469 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:32,471 - DEBUG - Пост 2429 в @geltek_skincare не содержит ключевых слов: 🎉 Результаты розыгрыша:
+
+🏆 Победители:
+[1. Настя (@odindvatri456)](tg://user?id=5337692613)
+[2. окса...
+2025-05-18 21:12:32,472 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:32,472 - DEBUG - Assigned msg_id = 7505865744366527808 to GetFileRequest (1059178c0)
+2025-05-18 21:12:32,472 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:32,473 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,473 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,473 - DEBUG - Assigned msg_id = 7505865744367463364 to MsgsAck (105954410)
+2025-05-18 21:12:32,473 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:32,473 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,473 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,693 - DEBUG - Handling RPC result for message 7505865744366527808
+2025-05-18 21:12:32,694 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:32,694 - INFO - Изображение сохранено: images/geltek_skincare_2427.jpg
+2025-05-18 21:12:32,694 - DEBUG - Пост 2427 в @geltek_skincare не содержит ключевых слов: **Продлеваем акцию! 
+
+**✉️ Купите любой продукт из линейки Gourmet — получите шанс выиграть один из ...
+2025-05-18 21:12:32,694 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:32,695 - DEBUG - Assigned msg_id = 7505865745255258812 to GetFileRequest (1059178c0)
+2025-05-18 21:12:32,695 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:32,695 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,695 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,695 - DEBUG - Assigned msg_id = 7505865745256078972 to MsgsAck (1059bed50)
+2025-05-18 21:12:32,695 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:32,695 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,695 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,911 - DEBUG - Handling RPC result for message 7505865745255258812
+2025-05-18 21:12:32,912 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:32,912 - INFO - Изображение сохранено: images/geltek_skincare_2426.jpg
+2025-05-18 21:12:32,912 - DEBUG - Пост 2426 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:32,912 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:32,912 - DEBUG - Assigned msg_id = 7505865746125255836 to GetFileRequest (1059178c0)
+2025-05-18 21:12:32,912 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:32,912 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,912 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:32,912 - DEBUG - Assigned msg_id = 7505865746125907196 to MsgsAck (1059bd8b0)
+2025-05-18 21:12:32,912 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:32,912 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:32,912 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,134 - DEBUG - Handling RPC result for message 7505865746125255836
+2025-05-18 21:12:33,134 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:33,134 - INFO - Изображение сохранено: images/geltek_skincare_2425.jpg
+2025-05-18 21:12:33,134 - DEBUG - Пост 2425 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:33,134 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:33,134 - DEBUG - Assigned msg_id = 7505865747309139148 to GetFileRequest (1059178c0)
+2025-05-18 21:12:33,134 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:33,134 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,134 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,134 - DEBUG - Assigned msg_id = 7505865747309946908 to MsgsAck (1059bcf50)
+2025-05-18 21:12:33,135 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:33,135 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,135 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,313 - DEBUG - Handling RPC result for message 7505865747309139148
+2025-05-18 21:12:33,314 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:33,314 - INFO - Изображение сохранено: images/geltek_skincare_2424.jpg
+2025-05-18 21:12:33,314 - DEBUG - Пост 2424 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:33,314 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:33,314 - DEBUG - Assigned msg_id = 7505865748029078380 to GetFileRequest (1059178c0)
+2025-05-18 21:12:33,314 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:33,314 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,314 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,314 - DEBUG - Assigned msg_id = 7505865748029878512 to MsgsAck (1059bd3b0)
+2025-05-18 21:12:33,314 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:33,315 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,315 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,531 - DEBUG - Handling RPC result for message 7505865748029078380
+2025-05-18 21:12:33,531 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:33,533 - INFO - Изображение сохранено: images/geltek_skincare_2423.jpg
+2025-05-18 21:12:33,533 - DEBUG - Пост 2423 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:33,534 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:33,534 - DEBUG - Assigned msg_id = 7505865748906814472 to GetFileRequest (1059178c0)
+2025-05-18 21:12:33,534 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:33,534 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,534 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,534 - DEBUG - Assigned msg_id = 7505865748907655612 to MsgsAck (1059be5d0)
+2025-05-18 21:12:33,534 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:33,534 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,534 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,732 - DEBUG - Handling RPC result for message 7505865748906814472
+2025-05-18 21:12:33,732 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:33,732 - INFO - Изображение сохранено: images/geltek_skincare_2422.jpg
+2025-05-18 21:12:33,733 - INFO - Найдены ссылки в посте 2422 в @geltek_skincare: ['https://geltek.ru/catalog/product/osvezhayuschiy-tonik-s-ana-kislotami/?utm_source=geli&utm_medium=160525)', 'https://geltek.ru/catalog/product/obnovlyayushchij-flyuid-alfaderm/?utm_source=geli&utm_medium=160525)', 'https://geltek.ru/catalog/product/gel-dlya-dusha-acid-therapy/?utm_source=geli&utm_medium=160525)', 'https://geltek.ru/catalog/product/flyuid-protiv-giperkeratoza-acid-therapy/?utm_source=geli&utm_medium=160525)', 'https://geltek.ru/catalog/product/otshelushivayushchiy-loson-salicylic-2/?utm_source=geli&utm_medium=160525)', 'https://geltek.ru/catalog/product/anti-acne-syvorotka-stop-akne/?utm_source=geli&utm_medium=160525)']
+2025-05-18 21:12:33,733 - INFO - Добавлена акция: канал=@geltek_skincare, пост=2422, дата=2025-05-16T07:05:10, ключевые слова=['уход']
+2025-05-18 21:12:33,733 - INFO - Попытка сохранить 18 акций в telegram_promotions.json
+2025-05-18 21:12:33,734 - INFO - Успешно сохранено 18 акций в telegram_promotions.json
+2025-05-18 21:12:33,735 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:33,735 - DEBUG - Assigned msg_id = 7505865749710694208 to GetFileRequest (104928280)
+2025-05-18 21:12:33,735 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:33,735 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,735 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,735 - DEBUG - Assigned msg_id = 7505865749711734668 to MsgsAck (1059be580)
+2025-05-18 21:12:33,735 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:33,735 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,735 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,912 - DEBUG - Handling RPC result for message 7505865749710694208
+2025-05-18 21:12:33,913 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:33,913 - INFO - Изображение сохранено: images/geltek_skincare_2421.jpg
+2025-05-18 21:12:33,913 - DEBUG - Пост 2421 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:33,913 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:33,913 - DEBUG - Assigned msg_id = 7505865750425353900 to GetFileRequest (104928280)
+2025-05-18 21:12:33,913 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:33,913 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,914 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:33,914 - DEBUG - Assigned msg_id = 7505865750426142588 to MsgsAck (1059bdbd0)
+2025-05-18 21:12:33,914 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:33,914 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:33,914 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,089 - DEBUG - Handling RPC result for message 7505865750425353900
+2025-05-18 21:12:34,089 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:34,090 - INFO - Изображение сохранено: images/geltek_skincare_2420.jpg
+2025-05-18 21:12:34,090 - DEBUG - Пост 2420 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:34,091 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:34,091 - DEBUG - Assigned msg_id = 7505865751431253928 to GetFileRequest (104928280)
+2025-05-18 21:12:34,091 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:34,091 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,091 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,091 - DEBUG - Assigned msg_id = 7505865751432385940 to MsgsAck (1059bcff0)
+2025-05-18 21:12:34,091 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:34,092 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,092 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,376 - DEBUG - Handling RPC result for message 7505865751431253928
+2025-05-18 21:12:34,376 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:34,377 - INFO - Изображение сохранено: images/geltek_skincare_2419.jpg
+2025-05-18 21:12:34,377 - DEBUG - Пост 2419 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:34,377 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:34,377 - DEBUG - Assigned msg_id = 7505865752575334088 to GetFileRequest (104928280)
+2025-05-18 21:12:34,377 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:34,377 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,377 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,377 - DEBUG - Assigned msg_id = 7505865752576130408 to MsgsAck (1059bddb0)
+2025-05-18 21:12:34,377 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:34,378 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,378 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,625 - DEBUG - Handling RPC result for message 7505865752575334088
+2025-05-18 21:12:34,625 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:34,625 - INFO - Изображение сохранено: images/geltek_skincare_2418.jpg
+2025-05-18 21:12:34,625 - DEBUG - Пост 2418 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:34,626 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:34,626 - DEBUG - Assigned msg_id = 7505865753572278516 to GetFileRequest (104928280)
+2025-05-18 21:12:34,626 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:34,627 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,627 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,627 - DEBUG - Assigned msg_id = 7505865753573566932 to MsgsAck (1059be3f0)
+2025-05-18 21:12:34,627 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:34,627 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,627 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,839 - DEBUG - Handling RPC result for message 7505865753572278516
+2025-05-18 21:12:34,839 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:34,840 - DEBUG - Assigned msg_id = 7505865754425793188 to GetFileRequest (104928280)
+2025-05-18 21:12:34,840 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:34,840 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,840 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:34,840 - DEBUG - Assigned msg_id = 7505865754426942364 to MsgsAck (1059bd860)
+2025-05-18 21:12:34,840 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:34,840 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:34,840 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,026 - DEBUG - Handling RPC result for message 7505865754425793188
+2025-05-18 21:12:35,027 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:35,027 - INFO - Изображение сохранено: images/geltek_skincare_2417.jpg
+2025-05-18 21:12:35,028 - INFO - Найдены ссылки в посте 2417 в @geltek_skincare: ['https://geltek.ru/catalog/product/shampun-bessulfatnyy-dlya-chuvstvitelnoy-kozhi-golovy-/?utm_source=geli&utm_medium=150525)[', 'https://geltek.ru/catalog/product/shampun-ukreplyayushchiy-s-postbiotikami/?utm_source=geli&utm_medium=150525)', 'https://geltek.ru/catalog/product/molochko-dlya-volos/?utm_source=geli&utm_medium=150525)', 'https://geltek.ru/catalog/product/krem-sprey-dlya-volos-cucumber-breeze/?utm_source=geli&utm_medium=150525)', 'https://geltek.ru/catalog/product/krem-sprey-dlya-volos-vanilla-milk/?utm_source=geli&utm_medium=150525)', 'https://geltek.ru/catalog/product/krem-sprey-dlya-volos-caramel-popcorn/?utm_source=geli&utm_medium=150525)', 'https://geltek.ru/catalog/product/krem-sprey-dlya-volos-fizzy-cola/?utm_source=geli&utm_medium=150525)']
+2025-05-18 21:12:35,028 - INFO - Добавлена акция: канал=@geltek_skincare, пост=2417, дата=2025-05-15T07:00:28, ключевые слова=['уход']
+2025-05-18 21:12:35,028 - INFO - Попытка сохранить 19 акций в telegram_promotions.json
+2025-05-18 21:12:35,029 - INFO - Успешно сохранено 19 акций в telegram_promotions.json
+2025-05-18 21:12:35,030 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:35,030 - DEBUG - Assigned msg_id = 7505865755480877060 to GetFileRequest (105981400)
+2025-05-18 21:12:35,030 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:35,030 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,030 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,030 - DEBUG - Assigned msg_id = 7505865755481921336 to MsgsAck (1059bd950)
+2025-05-18 21:12:35,030 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:35,030 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,030 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,226 - DEBUG - Handling RPC result for message 7505865755480877060
+2025-05-18 21:12:35,226 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:35,226 - INFO - Изображение сохранено: images/geltek_skincare_2416.jpg
+2025-05-18 21:12:35,227 - DEBUG - Пост 2416 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:35,227 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:35,227 - DEBUG - Assigned msg_id = 7505865756269325396 to GetFileRequest (105981400)
+2025-05-18 21:12:35,227 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:35,227 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,227 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,227 - DEBUG - Assigned msg_id = 7505865756269981524 to MsgsAck (1059be760)
+2025-05-18 21:12:35,227 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:35,227 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,227 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,405 - DEBUG - Handling RPC result for message 7505865756269325396
+2025-05-18 21:12:35,406 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:35,406 - INFO - Изображение сохранено: images/geltek_skincare_2415.jpg
+2025-05-18 21:12:35,406 - DEBUG - Пост 2415 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:35,406 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:35,406 - DEBUG - Assigned msg_id = 7505865756987885616 to GetFileRequest (105981400)
+2025-05-18 21:12:35,407 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:35,407 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,407 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,407 - DEBUG - Assigned msg_id = 7505865756988777300 to MsgsAck (1059be530)
+2025-05-18 21:12:35,407 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:35,407 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,407 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,705 - DEBUG - Handling RPC result for message 7505865756987885616
+2025-05-18 21:12:35,706 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:35,706 - INFO - Изображение сохранено: images/geltek_skincare_2414.jpg
+2025-05-18 21:12:35,706 - DEBUG - Пост 2414 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:35,707 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:35,707 - DEBUG - Assigned msg_id = 7505865758188789508 to GetFileRequest (105981400)
+2025-05-18 21:12:35,707 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:35,707 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,707 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,707 - DEBUG - Assigned msg_id = 7505865758189766068 to MsgsAck (1059bca00)
+2025-05-18 21:12:35,707 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:35,707 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,707 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,943 - DEBUG - Handling RPC result for message 7505865758188789508
+2025-05-18 21:12:35,943 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:35,943 - INFO - Изображение сохранено: images/geltek_skincare_2413.jpg
+2025-05-18 21:12:35,943 - DEBUG - Пост 2413 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:35,944 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:35,944 - DEBUG - Assigned msg_id = 7505865759137993952 to GetFileRequest (105981400)
+2025-05-18 21:12:35,944 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:35,944 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,944 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:35,944 - DEBUG - Assigned msg_id = 7505865759138860840 to MsgsAck (1059bcbe0)
+2025-05-18 21:12:35,944 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:35,944 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:35,944 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,109 - DEBUG - Handling RPC result for message 7505865759137993952
+2025-05-18 21:12:36,109 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,110 - INFO - Изображение сохранено: images/geltek_skincare_2412.jpg
+2025-05-18 21:12:36,110 - INFO - Найдены ссылки в посте 2412 в @geltek_skincare: ['https://geltek.ru/catalog/product/gel-dlya-intimnoy-gigieny/?utm_source=geli&utm_medium=140525)', 'https://geltek.ru/catalog/product/gel-dlya-intimnoy-gigieny-geltek-men/?utm_source=geli&utm_medium=140525)']
+2025-05-18 21:12:36,110 - INFO - Добавлена акция: канал=@geltek_skincare, пост=2412, дата=2025-05-14T07:02:19, ключевые слова=['уход']
+2025-05-18 21:12:36,110 - INFO - Попытка сохранить 20 акций в telegram_promotions.json
+2025-05-18 21:12:36,111 - INFO - Успешно сохранено 20 акций в telegram_promotions.json
+2025-05-18 21:12:36,111 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:36,111 - DEBUG - Assigned msg_id = 7505865760100989124 to GetFileRequest (105981470)
+2025-05-18 21:12:36,111 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:36,111 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,111 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,111 - DEBUG - Assigned msg_id = 7505865760101672908 to MsgsAck (1059bd4a0)
+2025-05-18 21:12:36,111 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:36,111 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,111 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,214 - DEBUG - Handling RPC result for message 7505865760100989124
+2025-05-18 21:12:36,215 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,215 - INFO - Изображение сохранено: images/geltek_skincare_2411.jpg
+2025-05-18 21:12:36,215 - DEBUG - Пост 2411 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:36,215 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:36,215 - DEBUG - Assigned msg_id = 7505865760518685124 to GetFileRequest (105981470)
+2025-05-18 21:12:36,215 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:36,216 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,216 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,216 - DEBUG - Assigned msg_id = 7505865760519400380 to MsgsAck (1059bdcc0)
+2025-05-18 21:12:36,216 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:36,216 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,216 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,352 - DEBUG - Handling RPC result for message 7505865760518685124
+2025-05-18 21:12:36,352 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,352 - INFO - Изображение сохранено: images/geltek_skincare_2410.jpg
+2025-05-18 21:12:36,352 - INFO - Найдены ссылки в посте 2410 в @geltek_skincare: ['https://t.me/theU_cosmetics)', 'https://geltek.ru/catalog/product/peptidnaya-syvorotka-must-have-peptide-serum-the-u/?utm_source=anons&utm_medium=130525)', 'https://ozon.onelink.me/SNMZ/aoetxspt)', 'https://geltek.pro/Sn3E0fJS5L)', 'https://market.yandex.ru/pr/51437430861)']
+2025-05-18 21:12:36,353 - INFO - Добавлена акция: канал=@geltek_skincare, пост=2410, дата=2025-05-13T09:10:33, ключевые слова=['новинка', 'уход']
+2025-05-18 21:12:36,353 - INFO - Попытка сохранить 21 акций в telegram_promotions.json
+2025-05-18 21:12:36,354 - INFO - Успешно сохранено 21 акций в telegram_promotions.json
+2025-05-18 21:12:36,355 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:36,355 - DEBUG - Assigned msg_id = 7505865761078248760 to GetFileRequest (1059815c0)
+2025-05-18 21:12:36,355 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:36,356 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,356 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,356 - DEBUG - Assigned msg_id = 7505865761079860472 to MsgsAck (1059bdef0)
+2025-05-18 21:12:36,356 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:36,356 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,356 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,559 - DEBUG - Handling acknowledge for [7505865761078248760]
+2025-05-18 21:12:36,559 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,560 - DEBUG - Handling update Updates
+2025-05-18 21:12:36,560 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,773 - DEBUG - Handling RPC result for message 7505865761078248760
+2025-05-18 21:12:36,773 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,774 - DEBUG - Assigned msg_id = 7505865762752337240 to GetFileRequest (1059815c0)
+2025-05-18 21:12:36,774 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:36,774 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,774 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,774 - DEBUG - Assigned msg_id = 7505865762753763936 to MsgsAck (1059bdea0)
+2025-05-18 21:12:36,774 - DEBUG - Encrypting 1 message(s) in 52 bytes for sending
+2025-05-18 21:12:36,774 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,775 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,980 - DEBUG - Handling RPC result for message 7505865762752337240
+2025-05-18 21:12:36,981 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,981 - INFO - Изображение сохранено: images/geltek_skincare_2409.jpg
+2025-05-18 21:12:36,981 - DEBUG - Пост 2409 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:36,981 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:36,982 - DEBUG - Assigned msg_id = 7505865763583124896 to GetFileRequest (1059815c0)
+2025-05-18 21:12:36,982 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:36,982 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,982 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,982 - DEBUG - Assigned msg_id = 7505865763583777212 to MsgsAck (1059bf2a0)
+2025-05-18 21:12:36,982 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:36,982 - DEBUG - Handling update UpdateShort
+2025-05-18 21:12:36,982 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:36,982 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,982 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:36,982 - DEBUG - Assigned msg_id = 7505865763585088512 to MsgsAck (1059beda0)
+2025-05-18 21:12:36,982 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:36,982 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:36,982 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,257 - DEBUG - Handling RPC result for message 7505865763583124896
+2025-05-18 21:12:37,257 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:37,258 - DEBUG - Assigned msg_id = 7505865764982683564 to GetFileRequest (1059815c0)
+2025-05-18 21:12:37,258 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:37,258 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,258 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,258 - DEBUG - Assigned msg_id = 7505865764983531380 to MsgsAck (1059be8a0)
+2025-05-18 21:12:37,258 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:37,258 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,258 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,433 - DEBUG - Handling RPC result for message 7505865764982683564
+2025-05-18 21:12:37,433 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:37,433 - INFO - Изображение сохранено: images/geltek_skincare_2408.jpg
+2025-05-18 21:12:37,433 - DEBUG - Пост 2408 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:37,434 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:37,434 - DEBUG - Assigned msg_id = 7505865765686964416 to GetFileRequest (1059815c0)
+2025-05-18 21:12:37,434 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:37,434 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,434 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,434 - DEBUG - Assigned msg_id = 7505865765688127900 to MsgsAck (1059bef30)
+2025-05-18 21:12:37,434 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:37,434 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,434 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,666 - DEBUG - Handling RPC result for message 7505865765686964416
+2025-05-18 21:12:37,666 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:37,667 - DEBUG - Assigned msg_id = 7505865766617963220 to GetFileRequest (1059815c0)
+2025-05-18 21:12:37,667 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:37,667 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,667 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,667 - DEBUG - Assigned msg_id = 7505865766618852044 to MsgsAck (1059bd720)
+2025-05-18 21:12:37,667 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:37,667 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,667 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,831 - DEBUG - Handling RPC result for message 7505865766617963220
+2025-05-18 21:12:37,831 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:37,831 - INFO - Изображение сохранено: images/geltek_skincare_2407.jpg
+2025-05-18 21:12:37,831 - DEBUG - Пост 2407 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:37,832 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:37,832 - DEBUG - Assigned msg_id = 7505865767279555704 to GetFileRequest (1059815c0)
+2025-05-18 21:12:37,832 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:37,832 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,832 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:37,832 - DEBUG - Assigned msg_id = 7505865767280667688 to MsgsAck (1059bcaa0)
+2025-05-18 21:12:37,832 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:37,832 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:37,832 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,027 - DEBUG - Handling RPC result for message 7505865767279555704
+2025-05-18 21:12:38,027 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:38,027 - DEBUG - Assigned msg_id = 7505865768354499844 to GetFileRequest (1059815c0)
+2025-05-18 21:12:38,027 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:38,027 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,027 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,027 - DEBUG - Assigned msg_id = 7505865768355242756 to MsgsAck (1059bdf90)
+2025-05-18 21:12:38,027 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:38,027 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,027 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,203 - DEBUG - Handling RPC result for message 7505865768354499844
+2025-05-18 21:12:38,203 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:38,203 - INFO - Изображение сохранено: images/geltek_skincare_2406.jpg
+2025-05-18 21:12:38,203 - DEBUG - Пост 2406 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:38,204 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:38,204 - DEBUG - Assigned msg_id = 7505865769063282992 to GetFileRequest (1059815c0)
+2025-05-18 21:12:38,204 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:38,204 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,204 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,204 - DEBUG - Assigned msg_id = 7505865769063991572 to MsgsAck (1059bd860)
+2025-05-18 21:12:38,204 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:38,204 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,204 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,439 - DEBUG - Handling RPC result for message 7505865769063282992
+2025-05-18 21:12:38,439 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:38,439 - INFO - Изображение сохранено: images/geltek_skincare_2405.jpg
+2025-05-18 21:12:38,439 - DEBUG - Пост 2405 в @geltek_skincare не содержит ключевых слов: **Отвечаем на частые вопросы про средства с SPF **
+
+Защитный крем с SPF — действительно «сложный» пр...
+2025-05-18 21:12:38,440 - INFO - Найдены ссылки в посте 2404 в @geltek_skincare: ['https://t.me/geltek_skincare/833)', 'https://t.me/geltekpromobot)', 'https://geltek.ru/catalog/kosmetika/ukhod-za-volosami/)🧴', 'https://t.me/geltekpromobot)']
+2025-05-18 21:12:38,440 - INFO - Добавлена акция: канал=@geltek_skincare, пост=2404, дата=2025-05-12T15:15:26, ключевые слова=['бесплатно', 'уход']
+2025-05-18 21:12:38,440 - INFO - Попытка сохранить 22 акций в telegram_promotions.json
+2025-05-18 21:12:38,441 - INFO - Успешно сохранено 22 акций в telegram_promotions.json
+2025-05-18 21:12:38,441 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:38,441 - DEBUG - Assigned msg_id = 7505865770011210468 to GetFileRequest (1059815c0)
+2025-05-18 21:12:38,441 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:38,441 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,441 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,441 - DEBUG - Assigned msg_id = 7505865770011899020 to MsgsAck (1059bf570)
+2025-05-18 21:12:38,441 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:38,441 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,441 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,522 - DEBUG - Handling container
+2025-05-18 21:12:38,522 - DEBUG - Handling update Updates
+2025-05-18 21:12:38,522 - DEBUG - Handling acknowledge for [7505865770011210468]
+2025-05-18 21:12:38,523 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:38,607 - DEBUG - Handling RPC result for message 7505865770011210468
+2025-05-18 21:12:38,607 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:38,608 - INFO - Изображение сохранено: images/geltek_skincare_2403.jpg
+2025-05-18 21:12:38,608 - DEBUG - Пост 2403 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:38,608 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:38,608 - DEBUG - Assigned msg_id = 7505865770680491472 to GetFileRequest (1059815c0)
+2025-05-18 21:12:38,608 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:38,609 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,609 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,609 - DEBUG - Assigned msg_id = 7505865770681487108 to MsgsAck (1059bdef0)
+2025-05-18 21:12:38,609 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2025-05-18 21:12:38,609 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,609 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,786 - DEBUG - Handling RPC result for message 7505865770680491472
+2025-05-18 21:12:38,786 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:38,786 - INFO - Изображение сохранено: images/geltek_skincare_2402.jpg
+2025-05-18 21:12:38,786 - DEBUG - Пост 2402 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:38,787 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:38,787 - DEBUG - Assigned msg_id = 7505865771393494632 to GetFileRequest (1059815c0)
+2025-05-18 21:12:38,787 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:38,787 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,787 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:38,787 - DEBUG - Assigned msg_id = 7505865771394511248 to MsgsAck (1059bd630)
+2025-05-18 21:12:38,787 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:38,787 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:38,787 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:39,001 - DEBUG - Handling RPC result for message 7505865771393494632
+2025-05-18 21:12:39,002 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:39,002 - INFO - Изображение сохранено: images/geltek_skincare_2401.jpg
+2025-05-18 21:12:39,002 - DEBUG - Пост 2401 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:39,002 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:39,002 - DEBUG - Assigned msg_id = 7505865772551326424 to GetFileRequest (1059815c0)
+2025-05-18 21:12:39,002 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:39,003 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:39,003 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:39,003 - DEBUG - Assigned msg_id = 7505865772552189500 to MsgsAck (1059bdcc0)
+2025-05-18 21:12:39,003 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:39,003 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:39,003 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:39,271 - DEBUG - Handling RPC result for message 7505865772551326424
+2025-05-18 21:12:39,272 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:39,272 - INFO - Изображение сохранено: images/geltek_skincare_2400.jpg
+2025-05-18 21:12:39,272 - DEBUG - Пост 2400 в @geltek_skincare не содержит ключевых слов: ...
+2025-05-18 21:12:39,273 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-05-18 21:12:39,273 - DEBUG - Assigned msg_id = 7505865773632851272 to GetFileRequest (1059815c0)
+2025-05-18 21:12:39,273 - DEBUG - Encrypting 1 message(s) in 92 bytes for sending
+2025-05-18 21:12:39,273 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:39,273 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:39,273 - DEBUG - Assigned msg_id = 7505865773633882192 to MsgsAck (1059bf9d0)
+2025-05-18 21:12:39,273 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-05-18 21:12:39,273 - DEBUG - Encrypted messages put in a queue to be sent
+2025-05-18 21:12:39,273 - DEBUG - Waiting for messages to send...
+2025-05-18 21:12:39,526 - DEBUG - Handling RPC result for message 7505865773632851272
+2025-05-18 21:12:39,526 - DEBUG - Receiving items from the network...
+2025-05-18 21:12:39,526 - INFO - Изображение сохранено: images/geltek_skincare_2399.jpg
+2025-05-18 21:12:39,527 - INFO - Найдены ссылки в посте 2399 в @geltek_skincare: ['https://geltek.ru/catalog/product/flyuid-protiv-giperkeratoza-acid-therapy/?utm_source=geli&utm_medium=120525)', 'https://geltek.ru/catalog/product/flyuid-dlya-tela-retinol-care/?utm_source=geli&utm_medium=120525)', 'https://geltek.ru/catalog/product/solntsezashchitnyy-uvlazhnyayushchiy-flyuid-spf50/?utm_source=geli&utm_medium=120525)', 'https://geltek.ru/catalog/product/flyuid-antiredness-gold/?utm_source=geli&utm_medium=120525)']
+2025-05-18 21:12:39,527 - INFO - Добавлена акция: канал=@geltek_skincare, пост=2399, дата=2025-05-12T07:02:18, ключевые слова=['уход']
+2025-05-18 21:12:39,527 - INFO - Попытка сохранить 23 акций в telegram_promotions.json
+2025-05-18 21:12:39,528 - INFO - Успешно сохранено 23 акций в telegram_promotions.json
+2025-05-18 21:12:39,528 - INFO - Достигнута дата 2025-05-10 07:01:48+00:00 в @geltek_skincare, старше 2025-05-11
+2025-05-18 21:12:39,528 - INFO - Попытка сохранить 23 акций в telegram_promotions.json
+2025-05-18 21:12:39,530 - INFO - Успешно сохранено 23 акций в telegram_promotions.json
+2025-05-18 21:12:39,530 - INFO - Попытка сохранить 23 акций в telegram_promotions.json
+2025-05-18 21:12:39,530 - INFO - Успешно сохранено 23 акций в telegram_promotions.json
+2025-05-18 21:12:39,531 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-18 21:12:39,531 - DEBUG - Closing current connection...
+2025-05-18 21:12:39,531 - DEBUG - Cancelling 0 pending message(s)...
+2025-05-18 21:12:39,532 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-18 21:12:39,532 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-05-18 21:12:39,532 - DEBUG - Closing current connection...
+2025-05-18 21:12:39,532 - DEBUG - Cancelling 0 pending message(s)...
+2025-05-18 21:12:39,532 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-05-18 21:12:39,536 - INFO - Клиент Telegram отключен

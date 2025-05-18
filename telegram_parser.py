@@ -12,10 +12,13 @@ from urllib.parse import urlparse
 from PIL import Image
 import pytesseract
 
+# Указываем путь к Tesseract
+pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
+
 # Настройка логирования
 logging.basicConfig(
     filename='telegram_parser.log',
-    level=logging.INFO,
+    level=logging.DEBUG,  # Увеличиваем уровень для отладки
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
@@ -30,7 +33,7 @@ if not env_loaded:
 API_ID = os.getenv('API_ID')
 API_HASH = os.getenv('API_HASH')
 PHONE = os.getenv('PHONE')
-PARSE_DAYS = os.getenv('PARSE_DAYS', '30')  # Дефолт 30 дней
+PARSE_DAYS = os.getenv('PARSE_DAYS', '7')  # Дефолт 7 дней
 
 # Проверка переменных окружения
 required_vars = {'API_ID': API_ID, 'API_HASH': API_HASH, 'PHONE': PHONE}
@@ -49,7 +52,8 @@ CHANNELS = [
 KEYWORDS = [
     'акция', 'скидка', 'спецпредложение', 'sale', 'распродажа', 'промокод',
     'предложение', 'дисконт', 'выгода', 'подарок', 'бесплатно', 'снижение',
-    'цена', 'оффер', 'бонус', 'пробник', 'новинка', 'лимит', 'коллекция', 'уход'
+    'цена', 'оффер', 'бонус', 'пробник', 'новинка', 'лимит', 'коллекция', 'уход',
+    'косметика', 'покупка'
 ]
 
 def generate_description(text, keywords, channel, image_text=None, max_length=100):
@@ -59,7 +63,6 @@ def generate_description(text, keywords, channel, image_text=None, max_length=10
     
     for kw in keywords:
         if kw in source_text.lower():
-            # Простая эвристика: ищем процент скидки или продукт
             match = re.search(r'(\d+%)\s*(?:скидка|sale|распродажа)?\s*на\s*([\w\s]+?)(?:\s*до\s*([\w\s]+))?', source_text, re.IGNORECASE)
             if match:
                 discount, product, deadline = match.groups()
@@ -71,16 +74,25 @@ def generate_description(text, keywords, channel, image_text=None, max_length=10
                 description = f"{kw.capitalize()} от {channel}"
                 break
 
-    # Если есть текст с изображения, добавляем его
     if image_text and text and not description:
         description = f"{text[:50].strip()} + {image_text[:50].strip()}"
     elif not description:
         description = source_text[:max_length].strip()
 
-    # Ограничиваем длину
     if len(description) > max_length:
         description = description[:max_length-3].strip() + "..."
     return description
+
+async def save_promotions(promotions):
+    """Сохраняет результаты в promotions.json."""
+    logger.info(f"Попытка сохранить {len(promotions)} акций в promotions.json")
+    try:
+        with open('promotions.json', 'w', encoding='utf-8') as f:
+            json.dump(promotions, f, ensure_ascii=False, indent=2)
+        logger.info(f"Успешно сохранено {len(promotions)} акций в promotions.json")
+    except Exception as e:
+        logger.error(f"Ошибка при сохранении promotions.json: {str(e)}")
+        raise
 
 async def main():
     # Инициализация клиента
@@ -98,8 +110,9 @@ async def main():
             channel_title = entity.title
             logger.info(f"Парсинг канала: {channel} ({channel_title})")
 
-            async for message in client.iter_messages(channel, limit=1000):
+            async for message in client.iter_messages(channel, limit=100):
                 if message.date.replace(tzinfo=None) < date_limit:
+                    logger.info(f"Достигнута дата {message.date} в {channel}, старше {date_limit}")
                     break
 
                 # Инициализация текста и ключевых слов
@@ -112,28 +125,33 @@ async def main():
                 if message.media and hasattr(message.media, 'photo'):
                     file_name = f"images/{channel.replace('@', '')}_{message.id}.jpg"
                     os.makedirs('images', exist_ok=True)
-                    await client.download_media(message.media, file_name)
-                    images.append(file_name)
-                    logger.info(f"Изображение сохранено: {file_name}")
-
-                    # OCR для извлечения текста
                     try:
-                        img = Image.open(file_name)
-                        image_text = pytesseract.image_to_string(img, lang='rus').strip()
-                        if image_text:
-                            logger.info(f"Извлечен текст из изображения в посте {message.id} в {channel}: {image_text[:100]}...")
-                            if not text:
-                                text = image_text  # Если текста нет, используем текст из изображения
-                        else:
-                            logger.warning(f"Текст из изображения в посте {message.id} в {channel} не извлечен")
+                        await client.download_media(message.media, file_name)
+                        images.append(file_name)
+                        logger.info(f"Изображение сохранено: {file_name}")
+
+                        # OCR для извлечения текста
+                        try:
+                            img = Image.open(file_name)
+                            image_text = pytesseract.image_to_string(img, lang='rus').strip()
+                            if image_text:
+                                logger.info(f"Извлечен текст из изображения в посте {message.id} в {channel}: {image_text[:100]}...")
+                                if not text:
+                                    text = image_text
+                            else:
+                                logger.warning(f"Текст из изображения в посте {message.id} в {channel} не извлечен")
+                        except Exception as e:
+                            logger.error(f"Ошибка OCR для изображения {file_name} в посте {message.id}: {str(e)}")
+                            image_text = ""
                     except Exception as e:
-                        logger.error(f"Ошибка OCR для изображения {file_name} в посте {message.id}: {str(e)}")
-                        image_text = ""
+                        logger.error(f"Ошибка загрузки изображения в посте {message.id} в {channel}: {str(e)}")
+                        images = []
 
                 # Поиск ключевых слов в тексте поста или извлеченном тексте
                 combined_text = (text + " " + image_text).lower()
                 found_keywords = [kw for kw in KEYWORDS if kw.lower() in combined_text]
                 if not found_keywords:
+                    logger.debug(f"Пост {message.id} в {channel} не содержит ключевых слов: {combined_text[:100]}...")
                     continue
 
                 # Извлечение ссылок
@@ -164,10 +182,13 @@ async def main():
                     "description": description
                 }
                 promotions.append(promotion)
-                logger.info(f"Найдена акция в {channel}, пост {message.id}")
+                logger.info(f"Добавлена акция: канал={channel}, пост={message.id}, дата={promotion['date']}, ключевые слова={found_keywords}")
 
                 # Имитация поведения пользователя
-                await asyncio.sleep(random.uniform(1, 3))
+                await asyncio.sleep(0.5)
+
+            # Сохранение после каждого канала
+            await save_promotions(promotions)
 
         except ChannelInvalidError:
             logger.error(f"Канал {channel} недоступен или приватный")
@@ -179,13 +200,15 @@ async def main():
             logger.error(f"Ошибка при парсинге {channel}: {str(e)}")
             continue
 
-    # Сохранение результатов
-    with open('promotions.json', 'w', encoding='utf-8') as f:
-        json.dump(promotions, f, ensure_ascii=False, indent=2)
-    logger.info(f"Сохранено {len(promotions)} акций в promotions.json")
+    # Финальное сохранение
+    await save_promotions(promotions)
 
     await client.disconnect()
     logger.info("Клиент Telegram отключен")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except Exception as e:
+        logger.error(f"Скрипт завершился с ошибкой: {str(e)}")
+        raise

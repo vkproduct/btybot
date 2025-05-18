@@ -9,16 +9,11 @@ from telethon.errors import ChannelInvalidError, FloodWaitError
 from dotenv import load_dotenv
 import json
 from urllib.parse import urlparse
-from PIL import Image
-import pytesseract
-
-# Указываем путь к Tesseract
-pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
 
 # Настройка логирования
 logging.basicConfig(
     filename='telegram_parser.log',
-    level=logging.DEBUG,  # Увеличиваем уровень для отладки
+    level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
@@ -33,7 +28,7 @@ if not env_loaded:
 API_ID = os.getenv('API_ID')
 API_HASH = os.getenv('API_HASH')
 PHONE = os.getenv('PHONE')
-PARSE_DAYS = os.getenv('PARSE_DAYS', '7')  # Дефолт 7 дней
+PARSE_DAYS = os.getenv('PARSE_DAYS', '30')  # Дефолт 30 дней
 
 # Проверка переменных окружения
 required_vars = {'API_ID': API_ID, 'API_HASH': API_HASH, 'PHONE': PHONE}
@@ -56,10 +51,10 @@ KEYWORDS = [
     'косметика', 'покупка'
 ]
 
-def generate_description(text, keywords, channel, image_text=None, max_length=100):
-    """Генерирует краткое описание акции на основе текста, ключевых слов и текста с изображения."""
+def generate_description(text, keywords, channel, max_length=100):
+    """Генерирует краткое описание акции на основе текста и ключевых слов."""
     description = ""
-    source_text = text or image_text or ""
+    source_text = text or ""
     
     for kw in keywords:
         if kw in source_text.lower():
@@ -74,24 +69,22 @@ def generate_description(text, keywords, channel, image_text=None, max_length=10
                 description = f"{kw.capitalize()} от {channel}"
                 break
 
-    if image_text and text and not description:
-        description = f"{text[:50].strip()} + {image_text[:50].strip()}"
-    elif not description:
+    if not description:
         description = source_text[:max_length].strip()
 
     if len(description) > max_length:
         description = description[:max_length-3].strip() + "..."
     return description
 
-async def save_promotions(promotions):
-    """Сохраняет результаты в promotions.json."""
-    logger.info(f"Попытка сохранить {len(promotions)} акций в promotions.json")
+async def save_promotions(promotions, filename='telegram_promotions.json'):
+    """Сохраняет результаты в указанный файл."""
+    logger.info(f"Попытка сохранить {len(promotions)} акций в {filename}")
     try:
-        with open('promotions.json', 'w', encoding='utf-8') as f:
+        with open(filename, 'w', encoding='utf-8') as f:
             json.dump(promotions, f, ensure_ascii=False, indent=2)
-        logger.info(f"Успешно сохранено {len(promotions)} акций в promotions.json")
+        logger.info(f"Успешно сохранено {len(promotions)} акций в {filename}")
     except Exception as e:
-        logger.error(f"Ошибка при сохранении promotions.json: {str(e)}")
+        logger.error(f"Ошибка при сохранении {filename}: {str(e)}")
         raise
 
 async def main():
@@ -117,10 +110,9 @@ async def main():
 
                 # Инициализация текста и ключевых слов
                 text = message.text or ""
-                image_text = ""
                 found_keywords = []
 
-                # Извлечение текста из изображения с помощью OCR
+                # Извлечение изображения
                 images = []
                 if message.media and hasattr(message.media, 'photo'):
                     file_name = f"images/{channel.replace('@', '')}_{message.id}.jpg"
@@ -129,35 +121,19 @@ async def main():
                         await client.download_media(message.media, file_name)
                         images.append(file_name)
                         logger.info(f"Изображение сохранено: {file_name}")
-
-                        # OCR для извлечения текста
-                        try:
-                            img = Image.open(file_name)
-                            image_text = pytesseract.image_to_string(img, lang='rus').strip()
-                            if image_text:
-                                logger.info(f"Извлечен текст из изображения в посте {message.id} в {channel}: {image_text[:100]}...")
-                                if not text:
-                                    text = image_text
-                            else:
-                                logger.warning(f"Текст из изображения в посте {message.id} в {channel} не извлечен")
-                        except Exception as e:
-                            logger.error(f"Ошибка OCR для изображения {file_name} в посте {message.id}: {str(e)}")
-                            image_text = ""
                     except Exception as e:
                         logger.error(f"Ошибка загрузки изображения в посте {message.id} в {channel}: {str(e)}")
-                        images = []
 
-                # Поиск ключевых слов в тексте поста или извлеченном тексте
-                combined_text = (text + " " + image_text).lower()
-                found_keywords = [kw for kw in KEYWORDS if kw.lower() in combined_text]
+                # Поиск ключевых слов
+                found_keywords = [kw for kw in KEYWORDS if kw.lower() in text.lower()]
                 if not found_keywords:
-                    logger.debug(f"Пост {message.id} в {channel} не содержит ключевых слов: {combined_text[:100]}...")
+                    logger.debug(f"Пост {message.id} в {channel} не содержит ключевых слов: {text[:100]}...")
                     continue
 
                 # Извлечение ссылок
                 links = []
                 url_pattern = r'https?://[^\s<>"]+|www\.[^\s<>"]+'
-                urls = re.findall(url_pattern, text + " " + image_text)
+                urls = re.findall(url_pattern, text)
                 for url in urls:
                     parsed = urlparse(url)
                     if parsed.scheme and parsed.netloc:
@@ -166,7 +142,7 @@ async def main():
                     logger.info(f"Найдены ссылки в посте {message.id} в {channel}: {links}")
 
                 # Генерация описания
-                description = generate_description(text, found_keywords, channel, image_text)
+                description = generate_description(text, found_keywords, channel)
 
                 # Формирование записи
                 promotion = {
@@ -184,11 +160,11 @@ async def main():
                 promotions.append(promotion)
                 logger.info(f"Добавлена акция: канал={channel}, пост={message.id}, дата={promotion['date']}, ключевые слова={found_keywords}")
 
-                # Имитация поведения пользователя
-                await asyncio.sleep(0.5)
+                # Промежуточное сохранение
+                await save_promotions(promotions, 'telegram_promotions.json')
 
-            # Сохранение после каждого канала
-            await save_promotions(promotions)
+            # Сохранение после канала
+            await save_promotions(promotions, 'telegram_promotions.json')
 
         except ChannelInvalidError:
             logger.error(f"Канал {channel} недоступен или приватный")
@@ -201,7 +177,7 @@ async def main():
             continue
 
     # Финальное сохранение
-    await save_promotions(promotions)
+    await save_promotions(promotions, 'telegram_promotions.json')
 
     await client.disconnect()
     logger.info("Клиент Telegram отключен")
